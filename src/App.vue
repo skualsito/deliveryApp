@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     
-    <NavbarApp @search="search"/>
+    <NavbarApp/>
     <div class="content-app">
       <router-view :dataShops="shopsOrdenados"/>
     </div>
@@ -21,34 +21,6 @@ export default {
   data:() => ({
         dataShops:data
   }),
-  methods:{
-    search(value){
-      //console.log("search", value);
-      //var titulo, item;
-      // value = value.toLowerCase();
-      // var nuevoArray = this.shopsOrdenados;
-      // if(value.length > 3){
-      //   nuevoArray.map((v)=>{
-      //     console.log(v.titulo.toLowerCase().indexOf(value) !== -1, v.titulo.toLowerCase());
-      //     if(v.length > 0){
-      //       v.menu.map((vm)=>{
-      //         console.log(vm.titulo.toLowerCase().indexOf(value) !== -1);
-      //         if(vm.length > 0){
-      //           vm.map((vmi)=>{
-      //             if(vmi.length > 0){
-      //               console.log(vmi.titulo.toLowerCase().indexOf(value) !== -1);
-      //             }
-      //           })
-      //         }
-      //       })
-      //     }
-      //   })
-      // }
-      // //console.log(titulo, item);
-      // return nuevoArray;
-      console.log(value);
-    }
-  },
   computed:{
     shopsOrdenados(){
       function compare(a, b) {

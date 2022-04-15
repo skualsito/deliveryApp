@@ -5,6 +5,7 @@ import DeliveryView from '../views/DeliveryView.vue'
 import DondeComerView from '../views/DondeComerView.vue'
 import TakeAwayView from '../views/TakeAwayView.vue'
 import ShopView from '../views/ShopView.vue'
+import SearchResult from '../views/SearchResult.vue'
 
 Vue.use(VueRouter)
 
@@ -33,6 +34,11 @@ const routes = [
     path: '/shop/:id',
     name: 'shop',
     component: ShopView
+  },
+  {
+    path: '/search/:search',
+    name: 'search',
+    component: SearchResult
   }
 ]
 

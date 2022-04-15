@@ -5,11 +5,12 @@
         <vs-button @click="activeSidebar = !activeSidebar">
           <i class='bx bx-menu'></i>
         </vs-button>
-        <vs-input v-model="value1" placeholder="Buscar" class="input-search-app" @keyup="$emit('search', $event.target.value)">
-          <template #icon>
-            <i class='bx bx-search'></i>
-          </template>
+        <vs-input v-model="value1" placeholder="Buscar" class="input-search-app">
         </vs-input>
+        <vs-button :disabled="value1 == ''" @click="(value1 != '') ? $router.push({path:`/search/${value1}`}).catch(()=>{}) : true; value1 = ''" color="#727272">
+          <i class='bx bx-search'></i>
+        </vs-button>
+        
       </vs-row>
       
       <vs-sidebar
@@ -90,6 +91,6 @@ export default {
 </script>
 
 <style>
-.input-search-app {width: calc(100% - 50px);}
+.input-search-app {width: calc(100% - 100px);}
 .input-search-app input, .input-search-app .vs-input-content {width: 100%;}
 </style>
