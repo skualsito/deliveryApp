@@ -6,9 +6,9 @@
       </template>
     </vs-card>
 
-    <container>
+    <div class="container">
       <vs-row>
-        <vs-card type="3" class="item-shop" v-for="(item, index) in $props.dataShops" :key="index" style="margin-bottom: 15px;">
+        <vs-card type="3" class="item-shop" v-for="(item, index) in shops" :key="index" style="margin-bottom: 15px;" @click="$router.push({path:`/shop/${item.id}`})">
           <template #title>
             <h3>{{item.titulo}}</h3>
           </template>
@@ -27,7 +27,7 @@
                 :href="`https://www.instagram.com/${item.instagram}`"
                 blank
               >
-                <i class='mdi mdi-instagram'></i>
+                <i class='bx bxl-instagram'></i>
               </vs-button>
               <vs-button
                 icon
@@ -36,7 +36,7 @@
                 :href="`https://wa.me/${item.whatsapp}`"
                 blank
               >
-                <i class='mdi mdi-whatsapp'></i>
+                <i class='bx bxl-whatsapp'></i>
               </vs-button>
               <vs-button
                 icon
@@ -45,7 +45,7 @@
                 :href="item.facebook"
                 blank
               >
-                <i class='mdi mdi-facebook'></i>
+                <i class='bx bxl-facebook' ></i>
               </vs-button>
               <vs-button
                 icon
@@ -54,21 +54,31 @@
                 :href="item.twitter"
                 blank
               >
-                <i class='mdi mdi-twitter'></i>
+                <i class='bx bxl-twitter'></i>
               </vs-button>
               <vs-button
                 icon
                 v-if="item.telefono"
-                :href="item.telefono"
+                :href="`tel:${item.telefono}`"
                 blank
               >
-                <i class='mdi mdi-phone'></i>
+                <i class='bx bxs-phone' ></i>
               </vs-button>
+              <vs-button
+                icon
+                v-if="item.url"
+                :href="item.url"
+                blank
+              >
+                <i class='bx bx-link' ></i>
+              </vs-button>
+
+              
             </vs-row>
           </template>
         </vs-card>
       </vs-row>
-    </container>
+    </div>
   </div>
 </template>
 <script>
@@ -76,6 +86,11 @@ export default {
   name: 'DeliveryView',
   props: {
     dataShops: Array
+  },
+  computed: {
+    shops(){
+      return this.$props.dataShops.filter((v)=> v.delivery); 
+    }
   }
 }
 </script>
@@ -91,5 +106,5 @@ export default {
 
 .item-shop .vs-card__text {padding: 0 15px!important;width: 100%;}
 
-container {overflow: auto;max-height: calc(100vh - 135px);display: flex; overflow-x: hidden;}
+.container {overflow: auto;max-height: calc(100vh - 135px);display: flex; overflow-x: hidden;}
 </style>

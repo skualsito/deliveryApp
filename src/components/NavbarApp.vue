@@ -5,7 +5,7 @@
         <vs-button @click="activeSidebar = !activeSidebar">
           <i class='bx bx-menu'></i>
         </vs-button>
-        <vs-input v-model="value1" placeholder="Buscar" class="input-search-app">
+        <vs-input v-model="value1" placeholder="Buscar" class="input-search-app" @keyup="$emit('search', $event.target.value)">
           <template #icon>
             <i class='bx bx-search'></i>
           </template>
@@ -78,6 +78,7 @@ export default {
   methods:{
     changeActive(){
       this.active = (location.pathname == "/") ? "home" : location.pathname.split("/")[1];
+      this.activeSidebar = false;
     }
   },
   watch:{

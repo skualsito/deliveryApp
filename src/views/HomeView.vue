@@ -57,6 +57,9 @@ export default {
   .botonete-app {
     text-align: center;
   }
+  .botonete-app .vs-card {
+    max-width: 100%;
+  }
   .botonete-app.delivery .vs-card {
     background: #feeab1;
   }

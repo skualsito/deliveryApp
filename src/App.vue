@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     
-    <NavbarApp />
+    <NavbarApp @search="search"/>
     <div class="content-app">
-      <router-view :dataShops="dataShops"/>
+      <router-view :dataShops="shopsOrdenados"/>
     </div>
   </div>
 </template>
@@ -11,6 +11,7 @@
 <script>
 // @ is an alias to /src
 import NavbarApp from '@/components/NavbarApp.vue'
+import data from './data.json'
 
 export default {
   name: 'App',
@@ -18,30 +19,48 @@ export default {
     NavbarApp
   },
   data:() => ({
-        dataShops:[{
-          titulo:"BACÁN BURGER ®",
-          descripcion: "¡Plancha llena, corazón contento!",
-          instagram: "bacanburger",
-          logo: "logo-bacan.jpg"
-        },{
-          titulo:"HONDO",
-          descripcion: "Bistró de costa.",
-          instagram: "hondobistro",
-          logo: "logo-hondo.jpg"
-        },{
-          titulo:"🔥 ChillBeer 🔥",
-          descripcion: "🛸Antares, Peñon del Aguila, Tacuara, Bierhaus, Baum, Tragos y Comidas🛸",
-          instagram: "chillbeer_oficial",
-          logo: "logo-chillbeer.jpg"
-        },{
-          titulo:"𝐄𝐋 𝐂𝐇𝐄𝐅𝐅",
-          descripcion: "Pizzas y empanadas gourmet 💯",
-          instagram: "elcheff.mda",
-          logo: "logo-elcheff.jpg",
-          whatsapp:"2257665352"
-        }
-        ]
-  })
+        dataShops:data
+  }),
+  methods:{
+    search(value){
+      //console.log("search", value);
+      //var titulo, item;
+      // value = value.toLowerCase();
+      // var nuevoArray = this.shopsOrdenados;
+      // if(value.length > 3){
+      //   nuevoArray.map((v)=>{
+      //     console.log(v.titulo.toLowerCase().indexOf(value) !== -1, v.titulo.toLowerCase());
+      //     if(v.length > 0){
+      //       v.menu.map((vm)=>{
+      //         console.log(vm.titulo.toLowerCase().indexOf(value) !== -1);
+      //         if(vm.length > 0){
+      //           vm.map((vmi)=>{
+      //             if(vmi.length > 0){
+      //               console.log(vmi.titulo.toLowerCase().indexOf(value) !== -1);
+      //             }
+      //           })
+      //         }
+      //       })
+      //     }
+      //   })
+      // }
+      // //console.log(titulo, item);
+      // return nuevoArray;
+      console.log(value);
+    }
+  },
+  computed:{
+    shopsOrdenados(){
+      function compare(a, b) {
+        if (a.titulo < b.titulo)
+          return -1;
+        if (a.titulo > b.titulo)
+          return 1;
+        return 0;
+      }
+      return data.shops.sort(compare);
+    }
+  }
   
 }
 </script>
