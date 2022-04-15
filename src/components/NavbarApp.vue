@@ -18,7 +18,7 @@
         :open.sync="activeSidebar"
         >
         <template #logo>
-          Delivery App
+          Yendo no, llegando
         </template>
           <vs-sidebar-item id="home" to="/">
             <template #icon>
