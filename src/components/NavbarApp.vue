@@ -5,7 +5,7 @@
         <vs-button @click="activeSidebar = !activeSidebar">
           <i class='bx bx-menu'></i>
         </vs-button>
-        <vs-input v-model="value1" placeholder="Buscar" class="input-search-app">
+        <vs-input v-model="value1" placeholder="Buscar" class="input-search-app" @keyup.enter="(value1 != '') ? $router.push({path:`/search/${value1}`}).catch(()=>{}) : true; value1 = ''">
         </vs-input>
         <vs-button :disabled="value1 == ''" @click="(value1 != '') ? $router.push({path:`/search/${value1}`}).catch(()=>{}) : true; value1 = ''" color="#727272">
           <i class='bx bx-search'></i>
@@ -42,20 +42,20 @@
             Take Away
           </vs-sidebar-item>
 
-          <vs-sidebar-item id="dondecomer" to="/dondecomer">
+          <vs-sidebar-item id="onsite" to="/onsite">
             <template #icon>
               <i class='mdi mdi-store-marker'></i>
             </template>
-            ¿Dónde comer?
+            On Site
           </vs-sidebar-item>
 
 
-        <!-- <vs-sidebar-item id="donate">
-          <template #icon>
-            <i class='bx bxs-donate-heart' ></i>
-          </template>
-          Donar
-        </vs-sidebar-item> -->
+          <vs-sidebar-item id="donate" to="/historia">
+            <template #icon>
+              <i class='bx bxs-donate-heart' ></i>
+            </template>
+            Historia
+          </vs-sidebar-item>
 
 
 

@@ -6,11 +6,15 @@
             <img :src="require(`@/assets/imgs/${shop.logo}`)" alt="">
           </vs-avatar>
           <h3>{{shop.titulo}}</h3>
+          
         </template>
         <template #img>
           <img :src="require(`@/assets/imgs/${shop.back}`)" alt="Back">
         </template>
         <template #text>
+          <p v-if="shop.direccion" class="link-direccion" style="margin-bottom: 10px!important;">
+            <i class='bx bxs-map'></i> <a :href="(shop.direccionLink) ? shop.direccionLink : '#' ">{{shop.direccion}}</a>
+          </p>
           <p class="shop-desc">{{shop.descripcionLarga}}</p>
           <vs-row justify="flex-end">
               <vs-button

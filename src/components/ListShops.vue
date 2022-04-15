@@ -1,16 +1,19 @@
 <template>
  <div class="container">
   <vs-row>
-    <vs-card type="3" class="item-shop" v-for="(item, index) in shops" :key="index" style="margin-bottom: 15px;" @click="$router.push({path:`/shop/${item.id}`})">
+    <vs-card type="3" class="item-shop" v-for="(item, index) in shops" :key="index" style="margin-bottom: 15px;">
       <template #title>
-        <h3>{{item.titulo}}</h3>
+        <h3 @click="$router.push({path:`/shop/${item.id}`})">{{item.titulo}}</h3>
       </template>
       <template #img>
-        <img :src="require(`@/assets/imgs/${item.logo}`)" alt="Logo">
+        <img :src="require(`@/assets/imgs/${item.logo}`)" alt="Logo" @click="$router.push({path:`/shop/${item.id}`})">
       </template>
       <template #text>
         <p>
           {{item.descripcion}}
+        </p>
+        <p v-if="item.direccion" class="link-direccion">
+          <i class='bx bxs-map'></i> <a :href="(item.direccionLink) ? item.direccionLink : '#' ">{{item.direccion}}</a>
         </p>
         <vs-row justify="flex-end">
           <vs-button
@@ -88,3 +91,10 @@ export default {
   }
 }
 </script>
+
+<style>
+.link-direccion a {
+  text-decoration: none;
+  color: #000;
+}
+</style>

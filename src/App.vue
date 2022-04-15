@@ -50,11 +50,20 @@ export default {
   }
   #app {
     padding: 5px;
+    height: 100%;
   }
   .content-app {
     padding: 5px 0;
+    height: calc(100% - 55px);
+  }
+  .delivery, .dondecomer, .search, .takeaway, .historia {
+    height: calc(100% - 10px);
   }
   .card-titulo .vs-card {
     box-shadow: none;
+  }
+  .vs-card-content.type-3 .vs-card:hover {
+      -webkit-transform: scale(1)!important;
+      transform: scale(1)!important;
   }
 </style>

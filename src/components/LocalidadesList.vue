@@ -22,7 +22,7 @@ export default {
   name: 'LocalidadesList',
   data:() => ({
         localidad:"",
-        localidadesData: data.localidades.reverse()
+        localidadesData: data.localidades
   })
 }
 </script>

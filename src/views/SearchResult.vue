@@ -1,31 +1,38 @@
 <template>
-  <div class="delivery">
+  <div class="search">
     <vs-card class="card-titulo">
       <template #text>
         <h2>Busqueda: {{$route.params.search}}</h2>
       </template>
     </vs-card>
-
+    <LocalidadesList @selectLocalidad="selectLocalidad"/>
     <ListShops :shops="shops"/>
   </div>
 </template>
 <script>
 import ListShops from '@/components/ListShops.vue'
+import LocalidadesList from '@/components/LocalidadesList.vue'
 export default {
   name: 'DeliveryView',
+  data:() => ({
+        localidad: [],
+        shops: []
+  }),
   components: {
-    ListShops
+    ListShops,
+    LocalidadesList
   },
   props: {
     dataShops: Array
   },
-  data:() => ({
-        shops: []
-  }),
   beforeMount(){
     this.search();
   },
   methods: {
+    selectLocalidad(l){
+      this.localidad = l;
+      this.search();
+    },
     search(){
       var results = [];
       let toSearch = this.trimString(this.$route.params.search);
@@ -51,7 +58,11 @@ export default {
           }
         }
       }
-      this.shops = results;
+      if(this.localidad != ''){
+        this.shops = results.filter((v)=> v.localidad == this.localidad); 
+      } else {
+        this.shops = results; 
+      }
     },
     trimString(s) {
       var l=0, r=s.length -1;

@@ -12,6 +12,8 @@
       "delivery": true,
       "takeaway": true,
       "onsite": true,
+      "direccion": "Chiozza 2260",
+      "direccionLink": "https://www.google.com/maps/place/BAC%C3%81N+BURGER/@-36.6931571,-56.6800996,17z/data=!3m1!4b1!4m5!3m4!1s0x959c6f3eb89e6ff9:0x41a255db920d7359!8m2!3d-36.6931614!4d-56.6779109",
       "menu": [
         {
           "titulo": "Burgers",
@@ -128,6 +130,8 @@
       "delivery": false,
       "takeaway": true,
       "onsite": true,
+      "direccion": "Ruta 11 Km 380",
+      "direccionLink": "https://www.google.com/maps/place/HONDO+Bistro+de+Costa/@-37.0276018,-56.8068628,15z/data=!4m2!3m1!1s0x0:0xa06b1837e4f1665b?sa=X&ved=2ahUKEwiag7LD7Jb3AhUMvJUCHe1lDcMQ_BJ6BAhLEAU",
       "menu": [
         {
           "titulo": "Pequeños",
@@ -232,6 +236,8 @@
       "takeaway": true,
       "onsite": true,
       "delivery": false,
+      "direccion": "Hipólito Yrigoyen 216",
+      "direccionLink": "https://www.google.com/maps/place/Chillbeer/@-36.7246117,-56.677259,17z/data=!3m1!4b1!4m5!3m4!1s0x959c6f7589a52171:0x3b59070dce002f4a!8m2!3d-36.724616!4d-56.6750703",
       "menu":[
         {
           "titulo": "Cervezas",
@@ -616,6 +622,8 @@
       "takeaway": true,
       "onsite": false,
       "delivery": true,
+      "direccion": "Av. Libertador San Martín 870",
+      "direccionLink": "https://www.google.com/maps/place/EL+CHEFF/@-36.7214413,-56.6854094,17z/data=!3m1!4b1!4m5!3m4!1s0x959c6fcef6d4fa2b:0x8a964b979e71e2e5!8m2!3d-36.7214456!4d-56.6832207",
       "menu": [
         {
           "titulo": "Empanadas",
@@ -779,6 +787,8 @@
       "takeaway": true,
       "onsite": false,
       "delivery": true,
+      "direccion": "Calle 3 842",
+      "direccionLink": "https://www.google.com/maps/place/El+Cheff/@-36.5387543,-56.6933783,17z/data=!3m1!4b1!4m5!3m4!1s0x959c1300b84b9d97:0x831403b736cc3741!8m2!3d-36.5387519!4d-56.6912811",
       "menu": [
         {
           "titulo": "Empanadas",
@@ -976,10 +986,12 @@
       "takeaway": true,
       "onsite": false,
       "delivery": true,
+      "direccion": "Av. San Bernardo 274",
+      "direccionLink": "https://www.google.com/maps/place/Marisa+al+corte/@-36.6865108,-56.681908,17z/data=!3m1!4b1!4m5!3m4!1s0x959c6ffaafd99571:0x1238335ab80007c7!8m2!3d-36.6865151!4d-56.6797193",
       "menu": []
     },{
       "id":7,
-      "titulo":"El Gran Choripan 2",
+      "titulo":"El Gran Choripan II",
       "descripcion": "Parrilla - Restaurant",
       "descripcionLarga": "📍Take away\n📍Pedidos solo por teléfono o wssp",
       "instagram": "elgranchoripan2",
@@ -991,6 +1003,8 @@
       "takeaway": true,
       "onsite": true,
       "delivery": true,
+      "direccion": "Querini 122",
+      "direccionLink": "https://www.google.com/maps/place/El+Gran+Choripan+II/@-36.6914683,-56.6804709,17z/data=!3m1!4b1!4m5!3m4!1s0x959c6f1ebeaab1c1:0x9b677dbb7c14e3f0!8m2!3d-36.691441!4d-56.6782838",
       "menu": []
     },{
       "id":8,
@@ -1004,6 +1018,8 @@
       "takeaway": true,
       "onsite": true,
       "delivery": true,
+      "direccion": "Chiozza 2100",
+      "direccionLink": "https://www.google.com/maps/place/El+Gran+Choripan/@-36.69494,-56.6796675,17z/data=!3m1!4b1!4m5!3m4!1s0x959c6f1eb9278113:0x9580ca654781ae13!8m2!3d-36.6949452!4d-56.6775079",
       "menu": []
     },{
       "id":9,
@@ -1018,6 +1034,8 @@
       "takeaway": true,
       "onsite": true,
       "delivery": true,
+      "direccion": "Calle 3 7162",
+      "direccionLink": "https://www.google.com/maps/place/Viejo+Skill+Cervecer%C3%ADa+Bar+de+Fabrica+MDT/@-36.5737336,-56.6941984,17z/data=!3m1!4b1!4m5!3m4!1s0x959c132b9f1318ad:0x8969057e23932619!8m2!3d-36.5737382!4d-56.6920165",
       "menu": [
         {
           "titulo": "Bebidas",
@@ -1389,6 +1407,8 @@
       "takeaway": true,
       "onsite": true,
       "delivery": true,
+      "direccion": "Av. San Bernardo 593",
+      "direccionLink": "https://www.google.com/maps/place/Viejo+Skill+Cervecer%C3%ADa+San+Bernardo/@-36.6862799,-56.685624,17z/data=!3m1!4b1!4m5!3m4!1s0x959c6fff8efc3669:0x1c4f2e96ee73e07f!8m2!3d-36.6862842!4d-56.6834353",
       "menu": [
         {
           "titulo": "Bebidas",
@@ -1761,6 +1781,8 @@
       "takeaway": true,
       "onsite": true,
       "delivery": true,
+      "direccion": "Calle 4 636",
+      "direccionLink": "https://www.google.com/maps/place/Viejo+Skill+Cervecer%C3%ADa+Santa+Teresita/@-36.5365009,-56.6948562,17z/data=!3m1!4b1!4m5!3m4!1s0x95a2e7a52eabdbfb:0x6f959e957024bcc3!8m2!3d-36.5365052!4d-56.6926675",
       "menu": [
         {
           "titulo": "Bebidas",
@@ -2132,6 +2154,8 @@
       "takeaway": true,
       "onsite": true,
       "delivery": true,
+      "direccion": "Av. 2 entre orquideas y las violetas",
+      "direccionLink": "https://www.google.com/maps/place/Viejo+Skill+Cervecer%C3%ADa+Costa+del+Este/@-36.6061122,-56.6932156,17z/data=!3m1!4b1!4m5!3m4!1s0x959c6de465969f97:0x578266f410df1018!8m2!3d-36.6061165!4d-56.6910269",
       "menu": [
         {
           "titulo": "Bebidas",
@@ -2503,6 +2527,8 @@
       "takeaway": true,
       "onsite": true,
       "delivery": true,
+      "direccion": "Av. San Martín 215",
+      "direccionLink": "https://www.google.com/maps/place/Viejo+Skill+Cervecer%C3%ADa+San+Clemente/@-36.3565227,-56.7232842,17z/data=!3m1!4b1!4m5!3m4!1s0x959c1b400c6e5e71:0xa83cf2f4edde385e!8m2!3d-36.356527!4d-56.7210955",
       "menu": [
         {
           "titulo": "Bebidas",
@@ -2875,6 +2901,8 @@
       "takeaway": true,
       "onsite": true,
       "delivery": true,
+      "direccion": "Catamarca 2205",
+      "direccionLink": "https://www.google.com/maps/place/Restaurant+El+Quincho/@-36.6937401,-56.6828848,17z/data=!3m1!4b1!4m5!3m4!1s0x959c6f1b92f8b4f5:0x8b7d9df67f212882!8m2!3d-36.6937469!4d-56.6807613",
       "menu": []
     },{
       "id":15,
@@ -2889,50 +2917,560 @@
       "takeaway": true,
       "onsite": true,
       "delivery": true,
+      "direccion": "Chiozza 2153",
+      "direccionLink": "https://www.google.com/maps/place/Don+Corleone/@-36.6944335,-56.6781419,18.5z/data=!4m5!3m4!1s0x959c6f190a067851:0x812fab7ecc19f71b!8m2!3d-36.6944348!4d-56.677564",
       "menu": []
+    },{
+      "id":16,
+      "titulo":"Don Corleone Piccolo",
+      "descripcion": "🔥 Horno a leña",
+      "descripcionLarga": "🔥 Horno a leña\nMás de 50 variedades\n",
+      "instagram": "don_corleone_piccolo",
+      "logo": "logo-doncorleonepiccolo.jpg",
+      "back": "back-doncorleonepiccolo.jpg",
+      "localidad": 8,
+      "takeaway": true,
+      "onsite": true,
+      "delivery": true,
+      "direccion": "Chiozza 2153",
+      "direccionLink": "https://www.google.com/maps/place/Don+Corleone/@-36.6944335,-56.6781419,18.5z/data=!4m5!3m4!1s0x959c6f190a067851:0x812fab7ecc19f71b!8m2!3d-36.6944348!4d-56.677564",
+      "menu": [
+        {
+          "titulo": "La Casa te Sugiere",
+          "items":[
+            {
+              "titulo": "Gran Tocino",
+              "descripcion": "Muzzarella y crocante de panceta"
+            },
+            {
+              "titulo": "Roquefugaz",
+              "descripcion": "Muzzarella, cebolla y roquefort"
+            },
+            {
+              "titulo": "Pancehuevo",
+              "descripcion": "Panceta crocante y huevos estrellados"
+            },
+            {
+              "titulo": "Huevona",
+              "descripcion": "Muzzarella, cebolla y huevos estrellados"
+            },
+            {
+              "titulo": "Ruqueta",
+              "descripcion": "Jamón crudo y rucula"
+            },
+            {
+              "titulo": "Mediterránea",
+              "descripcion": "Muzzarella, tomates cherry, rúcula y alcaparras - Otra opción: Con tomates disecados"
+            },
+            {
+              "titulo": "Peperonzeta",
+              "descripcion": "Muzzarella, morrones verdes asados con ajo y panceta crocante"
+            },
+            {
+              "titulo": "Caprese",
+              "descripcion": "Queso boconchino, tomate cherry y albahaca"
+            }           
+          ]
+        },
+        {
+          "titulo": "Pizzas Clásicas",
+          "items":[
+            {
+              "titulo": "Muzzarella",
+              "descripcion": "Salsa de tomate, muzzarella y aceitunas"
+            },
+            {
+              "titulo": "Anchoas",
+              "descripcion": "Salsa de tomate, anchoas, sin muzzarella"
+            },
+            {
+              "titulo": "Mixta",
+              "descripcion": "1/2 Muzzarella 1/2 Anchoas"
+            },
+            {
+              "titulo": "Al ajillo",
+              "descripcion": "Salsa de tomate, ajo sin muzzarella"
+            },
+            {
+              "titulo": "Fugazza",
+              "descripcion": "Cebolla, orégano y aceite de oliva"
+            },
+            {
+              "titulo": "Fugazza con muzzarella",
+              "descripcion": "Cebolla, orégano y aceite de oliva"
+            },
+            {
+              "titulo": "Con jamón",
+              "descripcion": "Salsa de tomate, muzzarella, jamón cocido"
+            },
+            {
+              "titulo": "Especial",
+              "descripcion": "Salsa de tomate, muzzarella, jamón cocido, morrón"
+            },
+            {
+              "titulo": "Napolitana",
+              "descripcion": "Rodajas de tomates, ajo y perejil"
+            },
+            {
+              "titulo": "Calabresa",
+              "descripcion": "Longaniza calabresa y aji molido"
+            }
+          ]
+        },
+        {
+          "titulo": "Pizzas Especiales",
+          "descripcion": "Todas nuestras pizzas especiales llevan salsa de tomate, muzzarella y aceitunas",
+          "items":[
+            {
+              "titulo": "Jamon con huevo",
+              "descripcion": "Jamon y huevo picado"
+            },
+            {
+              "titulo": "Peperoni",
+              "descripcion": "Morrones verdes asados y ajo picado"
+            },
+            {
+              "titulo": "Parmesana",
+              "descripcion": "Rodajas de tomates y queso parmesano rallado"
+            },
+            {
+              "titulo": "Roquefort"
+            },
+            {
+              "titulo": "Boloñesa"
+            },
+            {
+              "titulo": "Vasca",
+              "descripcion": "anchoas y ajíes en vinagre"
+            },
+            {
+              "titulo": "Provolone",
+              "descripcion": "Jamón cocido y queso provolone cortado en daditos gratinado"
+            },
+            {
+              "titulo": "Espárragos",
+              "descripcion": "Espárragos y queso provolone rallado gratinado"
+            },
+            {
+              "titulo": "Siciliana",
+              "descripcion": "Ajíes en vinagre"
+            },
+            {
+              "titulo": "Campestre",
+              "descripcion": "Criolla de albahaca, ajo y morrón"
+            },
+            {
+              "titulo": "Champiñones",
+              "descripcion": "Champiñones cubiertos de provolone gratinado - Otra opción: Champiñones, ajo y perejil picado"
+            },
+            {
+              "titulo": "Romana",
+              "descripcion": "Rodajas de tomate, longaniza calabresa y aji molido"
+            },
+            {
+              "titulo": "Verde",
+              "descripcion": "Acelga, salsa blanca, provolone rallado, sin muzzarella"
+            },
+            {
+              "titulo": "Humita",
+              "descripcion": "Salsa blanca, choclo desgranado provolone rallado, sin muzzarella"
+            },
+            {
+              "titulo": "4 Quesos",
+              "descripcion": "Muzzarella, fontina, provolone y roquefort"
+            }
+          
+          ]
+        },
+        {
+          "titulo": "Pizzas Super Especiales",
+          "items":[
+            {
+              "titulo": "Americana",
+              "descripcion": "Jamón cocido, tomate en rodajas, huevo picado y morrón"
+            },
+            {
+              "titulo": "Palmitos",
+              "descripcion": "Jamón cocido, palmitos cortados en rodajas, morrón"
+            },
+            {
+              "titulo": "Piamontesa",
+              "descripcion": "Panceta ahumada, ajies en vinagre"
+            },
+            {
+              "titulo": "Muzzabolla con zeta",
+              "descripcion": "Sin salsa de tomate muzzarella, panceta ahumada y cebolla"
+            },
+            {
+              "titulo": "New York",
+              "descripcion": "Tomate en rodajas, huevo picado, morrón y anchoas"
+            },
+            {
+              "titulo": "Tropical",
+              "descripcion": "Jamón cocido, palmitos y ananá"
+            },
+            {
+              "titulo": "Uruguayana",
+              "descripcion": "Roquefort, jamón cocido, longaniza, morrón y anchoas"
+            },
+            {
+              "titulo": "Ipanema",
+              "descripcion": "Jamón cocido y ananá"
+            },
+            {
+              "titulo": "Natalia",
+              "descripcion": "Jamón cocido, ananá y azúcar negra"
+            },
+            {
+              "titulo": "La Piccolo",
+              "descripcion": "Jamón cocido, palmitos, ananá, morrón y salsa golf"
+            }      
+          ]
+        },
+        {
+          "titulo": "Especialidades del Mar",
+          "items":[
+            {
+              "titulo": "Calamares"
+            },
+            {
+              "titulo": "Mejillones"
+            },
+            {
+              "titulo": "Atún",
+              "descripcion": "Atún, cebolla y morrón"
+            },
+            {
+              "titulo": "Frutos del mar",
+              "descripcion": "Atún, mejillones, calamares y camarones"
+            },
+            {
+              "titulo": "Camarones"
+            }
+          ]
+        },
+        {
+          "titulo": "Empanadas",
+          "items":[
+            {
+              "titulo": "Carne"
+            },
+            {
+              "titulo": "Pollo"
+            },
+            {
+              "titulo": "Jamón y queso"
+            },
+            {
+              "titulo": "Humita"
+            },
+            {
+              "titulo": "Verdura",
+              "descripcion": "Acelga y salsa blanca"
+            },
+            {
+              "titulo": "Roquefort"
+            },
+            {
+              "titulo": "Lomo cortada a cuchillo"
+            },
+            {
+              "titulo": "Caprese"
+            },
+            {
+              "titulo": "Cebolla y queso"
+            }
+          ]
+        },
+        {
+          "titulo": "Fainas",
+          "items":[
+            {
+              "titulo": "Faina"
+            },
+            {
+              "titulo": "Faina de verdeo"
+            },
+            {
+              "titulo": "Faina rellena",
+              "descripcion": "Cebolla picada, jamón cocido y muzzarella"
+            }
+          ]
+        },
+        {
+          "titulo": "Postres",
+          "items":[
+            {
+              "titulo": "Flan"
+            },
+            {
+              "titulo": "Duraznos en almíbar"
+            },
+            {
+              "titulo": "Ananá en almíbar"
+            },
+            {
+              "titulo": "Frutillas"
+            },
+            {
+              "titulo": "Crema o dulce",
+              "descripcion": "Porción"
+            },
+            {
+              "titulo": "Mousse de chocolate"
+            },
+            {
+              "titulo": "Ensalada de frutas"
+            },
+            {
+              "titulo": "Budín de pan"
+            },
+            {
+              "titulo": "Tiramisu"
+            }
+          ]
+        },
+        {
+          "titulo": "Postres Helados",
+          "items":[
+            {
+              "titulo": "Almendrado"
+            },
+            {
+              "titulo": "Bombón Suizo"
+            },
+            {
+              "titulo": "Bombón Escocés"
+            },
+            {
+              "titulo": "Charlotte"
+            },
+            {
+              "titulo": "Helado Mixto"
+            },
+            {
+              "titulo": "Bocha de americana"
+            }
+          ]
+        },
+        {
+          "titulo": "Bebidas sin Alcohol",
+          "items":[
+            {
+              "titulo": "Linea Pepsi"
+            },
+            {
+              "titulo": "Agua mineral"
+            },
+            {
+              "titulo": "Soda"
+            },
+            {
+              "titulo": "Agua saborizada"
+            }
+          ]
+        },
+        {
+          "titulo": "Cervezas",
+          "items":[
+            {
+              "titulo": "Lata stella artois"
+            },
+            {
+              "titulo": "Lata Andes"
+            },
+            {
+              "titulo": "Lata Patagonia"
+            },
+            {
+              "titulo": "Lata Quilmes"
+            },
+            {
+              "titulo": "Quilmes porrón"
+            },
+            {
+              "titulo": "Quilmes 3/4 litro"
+            },
+            {
+              "titulo": "Quilmes 1 litro"
+            },
+            {
+              "titulo": "Andes 1 litro"
+            },
+            {
+              "titulo": "Stout porrón"
+            },
+            {
+              "titulo": "Stout litro"
+            },
+            {
+              "titulo": "Pinta"
+            },
+            {
+              "titulo": "1/2 Pinta"
+            },
+            {
+              "titulo": "Corona porrón"
+            },
+            {
+              "titulo": "Corona 3/4 litro"
+            },
+            {
+              "titulo": "Patagonia 3/4 litro"
+            },
+            {
+              "titulo": "Stella Artois porrón"
+            },
+            {
+              "titulo": "Stella Artois litro"
+            }
+          ]
+        },
+        {
+          "titulo": "Vinos Tintos",
+          "items":[
+            {
+              "titulo": "Bianchi borgoña"
+            },
+            {
+              "titulo": "López"
+            },
+            {
+              "titulo": "Norton"
+            },
+            {
+              "titulo": "San Telmo"
+            },
+            {
+              "titulo": "Finca Flichman"
+            },
+            {
+              "titulo": "San Felipe roble"
+            }
+          ]
+        },
+        {
+          "titulo": "Vinos Blancos",
+          "items":[
+            {
+              "titulo": "San Felipe caramañola"
+            },
+            {
+              "titulo": "Bianchi chablis"
+            },
+            {
+              "titulo": "Etchart privado"
+            },
+            {
+              "titulo": "Norton"
+            },
+            {
+              "titulo": "Norton cosecha tardia"
+            },
+            {
+              "titulo": "Moscato (jarrita) 1/4 litro"
+            },
+            {
+              "titulo": "Moscato (jarrita) 1/2 litro"
+            }
+          ]
+        }
+      ]
+    },{
+      "id":17,
+      "titulo":"Chipá Gourmet",
+      "descripcion": "🧀Chipas artesanales de calidad gourmet",
+      "descripcionLarga": "🧀Chipas artesanales de calidad gourmet\n♥️SIN T.A.C.C\n📍Congelados u horneados\n",
+      "instagram": "gourmetchipa",
+      "logo": "logo-gourmetchipa.jpg",
+      "back": "back-gourmetchipa.jpg",
+      "localidad": 8,
+      "takeaway": false,
+      "onsite": false,
+      "delivery": true,
+      "menu": [
+        {
+          "titulo": "Chipá",
+          "items":[
+            {
+              "titulo": "Capresse"
+            },
+            {
+              "titulo": "Ciboullet"
+            },
+            {
+              "titulo": "Roquefort"
+            },
+            {
+              "titulo": "Clásico"
+            },
+            {
+              "titulo": "Jamón"
+            },
+            {
+              "titulo": "Panceta"
+            }        
+          ]
+        }
+      ]
+    },{
+      "id":18,
+      "titulo":"Sagrada Familia Nails",
+      "descripcion": "❤️‍🔥𝕾𝖆𝖌𝖗𝖆𝖉𝖆 𝕱𝖆𝖒𝖎𝖑𝖎𝖆 𝕹𝖆𝖎𝖑𝖘❤️‍🔥",
+      "descripcionLarga": "❤️‍🔥𝕾𝖆𝖌𝖗𝖆𝖉𝖆 𝕱𝖆𝖒𝖎𝖑𝖎𝖆 𝕹𝖆𝖎𝖑𝖘❤️‍🔥\n✨Uñas esculpidas\n✨Extensión de pestañas pelo x pelo\n✨lash lifting\n",
+      "instagram": "sagradafamilianails",
+      "logo": "logo-sagradafamilia.jpg",
+      "back": "back-sagradafamilia.jpg",
+      "localidad": 8,
+      "takeaway": false,
+      "onsite": true,
+      "delivery": false,
+      "menu": [
+      ]
     }
   ],
   "localidades": [
     {
-      "id":10,
-      "localidad":"Costa Esmeralda"
-    },
-    {
-      "id":1,
-      "localidad":"San Clemente"
-    },
-    {
-      "id":2,
-      "localidad":"Las Toninas"
-    },
-    {
-      "id":3,
-      "localidad":"Santa Teresita"
-    },
-    {
-      "id":4,
-      "localidad":"Mar del Tuyú"
-    },
-    {
-      "id":5,
-      "localidad":"Costa del Este"
-    },
-    {
-      "id":6,
-      "localidad":"Aguas Verdes"
-    },
-    {
-      "id":7,
-      "localidad":"La Lucila"
+      "id":9,
+      "localidad":"Mar de Ajó"
     },
     {
       "id":8,
       "localidad":"San Bernardo"
     },
     {
-      "id":9,
-      "localidad":"Mar de Ajó"
+      "id":7,
+      "localidad":"La Lucila"
+    },
+    {
+      "id":6,
+      "localidad":"Aguas Verdes"
+    },
+    {
+      "id":5,
+      "localidad":"Costa del Este"
+    },
+    {
+      "id":4,
+      "localidad":"Mar del Tuyú"
+    },
+    {
+      "id":3,
+      "localidad":"Santa Teresita"
+    },
+    {
+      "id":2,
+      "localidad":"Las Toninas"
+    },
+    {
+      "id":1,
+      "localidad":"San Clemente"
+    },
+    {
+      "id":10,
+      "localidad":"Costa Esmeralda"
     }
+    
 
   ]
 }

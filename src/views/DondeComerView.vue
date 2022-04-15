@@ -2,7 +2,7 @@
   <div class="dondecomer">
     <vs-card class="card-titulo">
       <template #text>
-        <h2>¿Dónde comer?</h2>
+        <h2>On Site</h2>
       </template>
     </vs-card>
     <LocalidadesList @selectLocalidad="selectLocalidad"/>

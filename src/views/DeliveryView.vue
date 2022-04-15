@@ -54,5 +54,5 @@ export default {
 
 .item-shop .vs-card__text {padding: 0 15px!important;width: 100%;}
 
-.container {overflow: auto;max-height: calc(100vh - 180px);display: flex; overflow-x: hidden;margin-top: 10px;}
+.container {overflow: auto;max-height: calc(100% - 115px);display: flex; overflow-x: hidden;margin-top: 10px;}
 </style>

@@ -33,9 +33,9 @@
       </vs-col>
 
       <vs-col vs-type="flex" vs-justify="center" vs-align="center" w="11">
-       <vs-card class="botonete-app dondecomer" @click="$router.push('/dondecomer')">
+       <vs-card class="botonete-app dondecomer" @click="$router.push('/onsite')">
           <template #text>
-            <h3>¿Dónde comer?</h3>
+            <h3>On Site</h3>
           </template>
           <template #img>
             <i class='mdi mdi-store-marker'></i>

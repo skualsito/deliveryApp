@@ -6,6 +6,7 @@ import DondeComerView from '../views/DondeComerView.vue'
 import TakeAwayView from '../views/TakeAwayView.vue'
 import ShopView from '../views/ShopView.vue'
 import SearchResult from '../views/SearchResult.vue'
+import HistoriaView from '../views/HistoriaView.vue'
 
 Vue.use(VueRouter)
 
@@ -21,8 +22,8 @@ const routes = [
     component: DeliveryView
   },
   {
-    path: '/dondecomer',
-    name: 'dondecomer',
+    path: '/onsite',
+    name: 'onsite',
     component: DondeComerView
   },
   {
@@ -39,6 +40,11 @@ const routes = [
     path: '/search/:search',
     name: 'search',
     component: SearchResult
+  },
+  {
+    path: '/historia',
+    name: 'historia',
+    component: HistoriaView
   }
 ]
 
