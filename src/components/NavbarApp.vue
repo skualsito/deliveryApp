@@ -19,7 +19,7 @@
         :open.sync="activeSidebar"
         >
         <template #logo>
-          Yendo no, llegando
+          <img :src="require(`@/assets/logo.png`)" alt="Logo" style="margin-right: 10px;"> Yendo no, llegando
         </template>
           <vs-sidebar-item id="home" to="/">
             <template #icon>

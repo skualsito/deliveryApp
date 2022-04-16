@@ -103,14 +103,12 @@
   </div>
 </template>
 <script>
+import data from '../data.json'
 export default {
   name: 'ShopView',
-  props: {
-    dataShops: Array
-  },
   computed: {
     shop(){
-      return this.$props.dataShops.filter((v)=> v.id == this.$route.params.id)[0]; 
+      return data.shops.filter((v)=> v.id == this.$route.params.id)[0]; 
     }
   }
   
