@@ -64,10 +64,42 @@
             ¡Quiero estar!
           </vs-sidebar-item>
 
+           <vs-sidebar-group v-if="loged">
+            <template #header>
+              <vs-sidebar-item arrow>
+                <template #icon>
+                  <i class='bx bxs-dashboard'></i>
+                </template>
+                Administrador
+              </vs-sidebar-item>
+            </template>
+
+            <vs-sidebar-item id="perfil" to="/perfil">
+              <template #icon>
+                <i class='bx bxs-user-pin' ></i>
+              </template>
+              Perfil
+            </vs-sidebar-item>
+            <vs-sidebar-item id="emprendimientos" to="/emprendimientos">
+              <template #icon>
+                <i class='bx bxs-store-alt'></i>
+              </template>
+              Emprendimientos
+            </vs-sidebar-item>
+          </vs-sidebar-group>
+
           <template #footer>
-          <vs-row>
-            <a href='https://cafecito.app/juanalmadaa' rel='noopener' target='_blank' ><img srcset='https://cdn.cafecito.app/imgs/buttons/button_5.png 1x, https://cdn.cafecito.app/imgs/buttons/button_5_2x.png 2x, https://cdn.cafecito.app/imgs/buttons/button_5_3.75x.png 3.75x' src='https://cdn.cafecito.app/imgs/buttons/button_5.png' alt='Invitame un café en cafecito.app' style="margin-top:10px" /></a>
-          </vs-row>
+            <div @click="$router.push({path:`/perfil`}).catch(()=>{})">
+              <vs-row>
+                <vs-avatar badge badge-color="success" v-if="loged">
+                  <img :src="require(`@/assets/imgs/historia/avatar.jpg`)" alt="Avatar">
+                </vs-avatar>
+                <vs-avatar primary v-if="!loged">
+                    <i class='bx bx-user'></i>
+                </vs-avatar>
+                <h5 class="user-login-app">{{(loged) ? "Juan Almada" : "Loguear"}}</h5>
+              </vs-row>
+            </div>
         </template>
 
 
@@ -84,7 +116,8 @@ export default {
   data:() => ({
         value1: '',
         active: '',
-        activeSidebar: false
+        activeSidebar: false,
+        loged: true
   }),
   mounted(){
     this.changeActive();
@@ -107,4 +140,7 @@ export default {
 <style>
 .input-search-app {width: calc(100% - 100px);}
 .input-search-app input, .input-search-app .vs-input-content {width: 100%;}
+.user-login-app {
+  margin: 12px 10px;
+}
 </style>
