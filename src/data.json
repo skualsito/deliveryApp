@@ -3427,6 +3427,42 @@
       "delivery": false,
       "menu": [
       ]
+    },{
+      "id":19,
+      "titulo":"Celulares La Costa",
+      "descripcion": "De 9 a 22hs de corrido",
+      "descripcionLarga": "De 9 a 22hs de corrido",
+      "instagram": "celulareslacosta",
+      "facebook": "https://www.facebook.com/CostaAtlanticaCelulares",
+      "whatsapp": "2257507000",
+      "logo": "logo-celulareslacosta.jpg",
+      "back": "back-celulareslacosta.jpg",
+      "localidad": 9,
+      "takeaway": false,
+      "onsite": true,
+      "delivery": false,
+      "direccion": "Av. libertador 1100",
+      "direccionLink": "https://www.google.com/maps/place/CELULARES+LA+COSTA/@-36.721473,-56.6864003,19z/data=!3m1!4b1!4m5!3m4!1s0x959c6f31245b281f:0xd31112c7490035c!8m2!3d-36.7214371!4d-56.6858538",
+      "menu": [
+      ]
+    },{
+      "id":20,
+      "titulo":"Celulares La Costa",
+      "descripcion": "De 10 a 13 y de 17 a 22",
+      "descripcionLarga": "De 10 a 13 y de 17 a 22",
+      "instagram": "celulareslacosta",
+      "facebook": "https://www.facebook.com/CostaAtlanticaCelulares",
+      "logo": "logo-celulareslacosta.jpg",
+      "back": "back-celulareslacosta.jpg",
+      "whatsapp": "2257549610",
+      "localidad": 8,
+      "takeaway": false,
+      "onsite": true,
+      "delivery": false,
+      "direccion": "Chiozza 2757",
+      "direccionLink": "https://www.google.com/maps/place/CELULARES+LA+COSTA/@-36.6866869,-56.678106,19.25z/data=!4m5!3m4!1s0x959c6ee66435e7e7:0xed46ef531ccb8336!8m2!3d-36.6869774!4d-56.6779721",
+      "menu": [
+      ]
     }
   ],
   "localidades": [
