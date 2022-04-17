@@ -3581,59 +3581,6 @@
       ]
     },{
       "id":23,
-      "titulo":"Mundo Birrita",
-      "descripcion": "Despacho Cervecero",
-      "descripcionLarga": "Merchandasing / Bibliografía / Cultura cervecera / Charlas de productores / Maridajes / Presentación de cervezas.",
-      "instagram": "mundobirrita",
-      "logo": "logo-mundobirrita.jpg",
-      "back": "back-mundobirrita.jpg",
-      "whatsapp": "2257528576",
-      "localidad": 9,
-      "takeaway": true,
-      "onsite": true,
-      "delivery": true,
-      "tipo": 1,
-      "direccion": "La Rioja 10",
-      "direccionLink": "https://www.google.com/maps/place/Mundo+Birrita/@-36.7209612,-56.6806253,17z/data=!3m1!4b1!4m5!3m4!1s0x959c6f02d335ccd9:0x7fe278b631106294!8m2!3d-36.7209655!4d-56.6784366",
-      "menu": [
-        {
-          "titulo": "Ofrecemos",
-          "items": [
-            {
-              "titulo":"Cervezaa artesanales e importadas"
-            },
-            {
-              "titulo":"Rotación de cervezas en canilla"
-            },
-            {
-              "titulo":"Gin de autor"
-            },
-            {
-              "titulo":"Sidras artesanales"
-            },
-            {
-              "titulo":"Vermouth"
-            },
-            {
-              "titulo":"Vinos boutique"
-            },
-            {
-              "titulo":"Pizzas estilo Napoles"
-            },
-            {
-              "titulo":"Salchichas alemanas"
-            },
-            {
-              "titulo":"Picadas"
-            },
-            {
-              "titulo":"Tostados"
-            }
-          ]
-        }
-      ]
-    },{
-      "id":24,
       "titulo":"De La Abuela",
       "descripcion": "El nombre de \"De la Abuela\", fue dado en honor a la abuela Matilde.",
       "descripcionLarga": "El nombre de \"De la Abuela\", fue dado en honor a la abuela Matilde.\nPor ella, la familia de la abuela, se complace en deleitarlos con su gastronomía.",
