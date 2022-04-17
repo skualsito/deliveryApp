@@ -12,6 +12,7 @@
       "delivery": true,
       "takeaway": true,
       "onsite": true,
+      "tipo": 1,
       "direccion": "Chiozza 2260",
       "direccionLink": "https://www.google.com/maps/place/BAC%C3%81N+BURGER/@-36.6931571,-56.6800996,17z/data=!3m1!4b1!4m5!3m4!1s0x959c6f3eb89e6ff9:0x41a255db920d7359!8m2!3d-36.6931614!4d-56.6779109",
       "menu": [
@@ -130,6 +131,7 @@
       "delivery": false,
       "takeaway": true,
       "onsite": true,
+      "tipo": 1,
       "direccion": "Ruta 11 Km 380",
       "direccionLink": "https://www.google.com/maps/place/HONDO+Bistro+de+Costa/@-37.0276018,-56.8068628,15z/data=!4m2!3m1!1s0x0:0xa06b1837e4f1665b?sa=X&ved=2ahUKEwiag7LD7Jb3AhUMvJUCHe1lDcMQ_BJ6BAhLEAU",
       "menu": [
@@ -236,6 +238,7 @@
       "takeaway": true,
       "onsite": true,
       "delivery": false,
+      "tipo": 1,
       "direccion": "Hipólito Yrigoyen 216",
       "direccionLink": "https://www.google.com/maps/place/Chillbeer/@-36.7246117,-56.677259,17z/data=!3m1!4b1!4m5!3m4!1s0x959c6f7589a52171:0x3b59070dce002f4a!8m2!3d-36.724616!4d-56.6750703",
       "menu":[
@@ -622,6 +625,7 @@
       "takeaway": true,
       "onsite": false,
       "delivery": true,
+      "tipo": 1,
       "direccion": "Av. Libertador San Martín 870",
       "direccionLink": "https://www.google.com/maps/place/EL+CHEFF/@-36.7214413,-56.6854094,17z/data=!3m1!4b1!4m5!3m4!1s0x959c6fcef6d4fa2b:0x8a964b979e71e2e5!8m2!3d-36.7214456!4d-56.6832207",
       "menu": [
@@ -787,6 +791,7 @@
       "takeaway": true,
       "onsite": false,
       "delivery": true,
+      "tipo": 1,
       "direccion": "Calle 3 842",
       "direccionLink": "https://www.google.com/maps/place/El+Cheff/@-36.5387543,-56.6933783,17z/data=!3m1!4b1!4m5!3m4!1s0x959c1300b84b9d97:0x831403b736cc3741!8m2!3d-36.5387519!4d-56.6912811",
       "menu": [
@@ -986,6 +991,7 @@
       "takeaway": true,
       "onsite": false,
       "delivery": true,
+      "tipo": 1,
       "direccion": "Av. San Bernardo 274",
       "direccionLink": "https://www.google.com/maps/place/Marisa+al+corte/@-36.6865108,-56.681908,17z/data=!3m1!4b1!4m5!3m4!1s0x959c6ffaafd99571:0x1238335ab80007c7!8m2!3d-36.6865151!4d-56.6797193",
       "menu": []
@@ -1003,6 +1009,7 @@
       "takeaway": true,
       "onsite": true,
       "delivery": true,
+      "tipo": 1,
       "direccion": "Querini 122",
       "direccionLink": "https://www.google.com/maps/place/El+Gran+Choripan+II/@-36.6914683,-56.6804709,17z/data=!3m1!4b1!4m5!3m4!1s0x959c6f1ebeaab1c1:0x9b677dbb7c14e3f0!8m2!3d-36.691441!4d-56.6782838",
       "menu": []
@@ -1018,6 +1025,7 @@
       "takeaway": true,
       "onsite": true,
       "delivery": true,
+      "tipo": 1,
       "direccion": "Chiozza 2100",
       "direccionLink": "https://www.google.com/maps/place/El+Gran+Choripan/@-36.69494,-56.6796675,17z/data=!3m1!4b1!4m5!3m4!1s0x959c6f1eb9278113:0x9580ca654781ae13!8m2!3d-36.6949452!4d-56.6775079",
       "menu": []
@@ -1034,6 +1042,7 @@
       "takeaway": true,
       "onsite": true,
       "delivery": true,
+      "tipo": 1,
       "direccion": "Calle 3 7162",
       "direccionLink": "https://www.google.com/maps/place/Viejo+Skill+Cervecer%C3%ADa+Bar+de+Fabrica+MDT/@-36.5737336,-56.6941984,17z/data=!3m1!4b1!4m5!3m4!1s0x959c132b9f1318ad:0x8969057e23932619!8m2!3d-36.5737382!4d-56.6920165",
       "menu": [
@@ -1407,6 +1416,7 @@
       "takeaway": true,
       "onsite": true,
       "delivery": true,
+      "tipo": 1,
       "direccion": "Av. San Bernardo 593",
       "direccionLink": "https://www.google.com/maps/place/Viejo+Skill+Cervecer%C3%ADa+San+Bernardo/@-36.6862799,-56.685624,17z/data=!3m1!4b1!4m5!3m4!1s0x959c6fff8efc3669:0x1c4f2e96ee73e07f!8m2!3d-36.6862842!4d-56.6834353",
       "menu": [
@@ -1781,6 +1791,7 @@
       "takeaway": true,
       "onsite": true,
       "delivery": true,
+      "tipo": 1,
       "direccion": "Calle 4 636",
       "direccionLink": "https://www.google.com/maps/place/Viejo+Skill+Cervecer%C3%ADa+Santa+Teresita/@-36.5365009,-56.6948562,17z/data=!3m1!4b1!4m5!3m4!1s0x95a2e7a52eabdbfb:0x6f959e957024bcc3!8m2!3d-36.5365052!4d-56.6926675",
       "menu": [
@@ -2154,6 +2165,7 @@
       "takeaway": true,
       "onsite": true,
       "delivery": true,
+      "tipo": 1,
       "direccion": "Av. 2 entre orquideas y las violetas",
       "direccionLink": "https://www.google.com/maps/place/Viejo+Skill+Cervecer%C3%ADa+Costa+del+Este/@-36.6061122,-56.6932156,17z/data=!3m1!4b1!4m5!3m4!1s0x959c6de465969f97:0x578266f410df1018!8m2!3d-36.6061165!4d-56.6910269",
       "menu": [
@@ -2527,6 +2539,7 @@
       "takeaway": true,
       "onsite": true,
       "delivery": true,
+      "tipo": 1,
       "direccion": "Av. San Martín 215",
       "direccionLink": "https://www.google.com/maps/place/Viejo+Skill+Cervecer%C3%ADa+San+Clemente/@-36.3565227,-56.7232842,17z/data=!3m1!4b1!4m5!3m4!1s0x959c1b400c6e5e71:0xa83cf2f4edde385e!8m2!3d-36.356527!4d-56.7210955",
       "menu": [
@@ -2901,6 +2914,7 @@
       "takeaway": true,
       "onsite": true,
       "delivery": true,
+      "tipo": 1,
       "direccion": "Catamarca 2205",
       "direccionLink": "https://www.google.com/maps/place/Restaurant+El+Quincho/@-36.6937401,-56.6828848,17z/data=!3m1!4b1!4m5!3m4!1s0x959c6f1b92f8b4f5:0x8b7d9df67f212882!8m2!3d-36.6937469!4d-56.6807613",
       "menu": []
@@ -2917,6 +2931,7 @@
       "takeaway": true,
       "onsite": true,
       "delivery": true,
+      "tipo": 1,
       "direccion": "Chiozza 2153",
       "direccionLink": "https://www.google.com/maps/place/Don+Corleone/@-36.6944335,-56.6781419,18.5z/data=!4m5!3m4!1s0x959c6f190a067851:0x812fab7ecc19f71b!8m2!3d-36.6944348!4d-56.677564",
       "menu": []
@@ -2932,6 +2947,7 @@
       "takeaway": true,
       "onsite": true,
       "delivery": true,
+      "tipo": 1,
       "direccion": "Chiozza 2153",
       "direccionLink": "https://www.google.com/maps/place/Don+Corleone/@-36.6944335,-56.6781419,18.5z/data=!4m5!3m4!1s0x959c6f190a067851:0x812fab7ecc19f71b!8m2!3d-36.6944348!4d-56.677564",
       "menu": [
@@ -3388,6 +3404,7 @@
       "takeaway": false,
       "onsite": false,
       "delivery": true,
+      "tipo": 1,
       "menu": [
         {
           "titulo": "Chipá",
@@ -3425,6 +3442,7 @@
       "takeaway": false,
       "onsite": true,
       "delivery": false,
+      "tipo": 2,
       "menu": [
       ]
     },{
@@ -3441,6 +3459,7 @@
       "takeaway": false,
       "onsite": true,
       "delivery": false,
+      "tipo": 2,
       "direccion": "Av. libertador 1100",
       "direccionLink": "https://www.google.com/maps/place/CELULARES+LA+COSTA/@-36.721473,-56.6864003,19z/data=!3m1!4b1!4m5!3m4!1s0x959c6f31245b281f:0xd31112c7490035c!8m2!3d-36.7214371!4d-56.6858538",
       "menu": [
@@ -3459,6 +3478,7 @@
       "takeaway": false,
       "onsite": true,
       "delivery": false,
+      "tipo": 2,
       "direccion": "Chiozza 2757",
       "direccionLink": "https://www.google.com/maps/place/CELULARES+LA+COSTA/@-36.6866869,-56.678106,19.25z/data=!4m5!3m4!1s0x959c6ee66435e7e7:0xed46ef531ccb8336!8m2!3d-36.6869774!4d-56.6779721",
       "menu": [
@@ -3476,6 +3496,7 @@
       "takeaway": false,
       "onsite": false,
       "delivery": true,
+      "tipo": 1,
       "menu": [
         {
           "titulo": "Listado de productos",
@@ -3518,6 +3539,7 @@
       "takeaway": true,
       "onsite": true,
       "delivery": true,
+      "tipo": 1,
       "direccion": "La Rioja 10",
       "direccionLink": "https://www.google.com/maps/place/Mundo+Birrita/@-36.7209612,-56.6806253,17z/data=!3m1!4b1!4m5!3m4!1s0x959c6f02d335ccd9:0x7fe278b631106294!8m2!3d-36.7209655!4d-56.6784366",
       "menu": [
@@ -3553,6 +3575,452 @@
             },
             {
               "titulo":"Tostados"
+            }
+          ]
+        }
+      ]
+    },{
+      "id":23,
+      "titulo":"Mundo Birrita",
+      "descripcion": "Despacho Cervecero",
+      "descripcionLarga": "Merchandasing / Bibliografía / Cultura cervecera / Charlas de productores / Maridajes / Presentación de cervezas.",
+      "instagram": "mundobirrita",
+      "logo": "logo-mundobirrita.jpg",
+      "back": "back-mundobirrita.jpg",
+      "whatsapp": "2257528576",
+      "localidad": 9,
+      "takeaway": true,
+      "onsite": true,
+      "delivery": true,
+      "tipo": 1,
+      "direccion": "La Rioja 10",
+      "direccionLink": "https://www.google.com/maps/place/Mundo+Birrita/@-36.7209612,-56.6806253,17z/data=!3m1!4b1!4m5!3m4!1s0x959c6f02d335ccd9:0x7fe278b631106294!8m2!3d-36.7209655!4d-56.6784366",
+      "menu": [
+        {
+          "titulo": "Ofrecemos",
+          "items": [
+            {
+              "titulo":"Cervezaa artesanales e importadas"
+            },
+            {
+              "titulo":"Rotación de cervezas en canilla"
+            },
+            {
+              "titulo":"Gin de autor"
+            },
+            {
+              "titulo":"Sidras artesanales"
+            },
+            {
+              "titulo":"Vermouth"
+            },
+            {
+              "titulo":"Vinos boutique"
+            },
+            {
+              "titulo":"Pizzas estilo Napoles"
+            },
+            {
+              "titulo":"Salchichas alemanas"
+            },
+            {
+              "titulo":"Picadas"
+            },
+            {
+              "titulo":"Tostados"
+            }
+          ]
+        }
+      ]
+    },{
+      "id":24,
+      "titulo":"De La Abuela",
+      "descripcion": "El nombre de \"De la Abuela\", fue dado en honor a la abuela Matilde.",
+      "descripcionLarga": "El nombre de \"De la Abuela\", fue dado en honor a la abuela Matilde.\nPor ella, la familia de la abuela, se complace en deleitarlos con su gastronomía.",
+      "instagram": "delaabuela2003",
+      "facebook": "https://www.facebook.com/agusta.french.5",
+      "logo": "logo-delaabuela.jpg",
+      "back": "back-delaabuela.jpg",
+      "whatsapp": "2257531057",
+      "localidad": 9,
+      "takeaway": true,
+      "onsite": true,
+      "delivery": true,
+      "tipo": 1,
+      "direccion": "Almte. Brown 250",
+      "direccionLink": "https://www.google.com/maps/place/De+La+Abuela/@-36.7406782,-56.6779867,17z/data=!3m1!4b1!4m5!3m4!1s0x959c659492aa5a2f:0x125351dc5a069a87!8m2!3d-36.7406915!4d-56.6757979",
+      "menu": [
+        {
+          "titulo": "Sugerencias",
+          "items": [
+            {
+              "titulo":"Carne al horno con guarnición"
+            },
+            {
+              "titulo":"Pastel de papa"
+            },
+            {
+              "titulo":"Arroz con pollo a la valenciana"
+            },
+            {
+              "titulo":"Matambrito a la pizza"
+            },
+            {
+              "titulo":"Matambrito al verdeo"
+            },
+            {
+              "titulo":"Matambrito al Roquefort"
+            },
+            {
+              "titulo":"Pollo a la provenzal"
+            },
+            {
+              "titulo":"Pollo al verdeo"
+            },
+            {
+              "titulo":"Matambre casero"
+            },
+            {
+              "titulo":"Pollo entero con doble fritas"
+            },
+            {
+              "titulo":"Medio pollo con fritas"
+            },
+            {
+              "titulo":"Cuarto de pollo con fritas"
+            }
+          ]
+        },
+        {
+          "titulo": "Parrilla al carbon",
+          "items": [
+            {
+              "titulo":"Chorizo"
+            },
+            {
+              "titulo":"Morcilla"
+            },
+            {
+              "titulo":"Chinchulin"
+            },
+            {
+              "titulo":"Riñón"
+            },
+            {
+              "titulo":"Molleja"
+            },
+            {
+              "titulo":"Asado para uno"
+            },
+            {
+              "titulo":"Asado para dos"
+            },
+            {
+              "titulo":"Vacío"
+            },
+            {
+              "titulo":"Bife de lomo"
+            },
+            {
+              "titulo":"Bife de costilla"
+            },
+            {
+              "titulo":"Bife de chorizo"
+            },
+            {
+              "titulo":"Parrillada para 2"
+            },
+            {
+              "titulo":"Parrillada para 4"
+            },
+            {
+              "titulo":"Parrillada para 8"
+            },
+            {
+              "titulo":"Matambre de ternera"
+            },
+            {
+              "titulo":"Matambre de cerdo"
+            }
+          ]
+        },
+        {
+          "titulo": "Pastas",
+          "items": [
+            {
+              "titulo":"Tallarines"
+            },
+            {
+              "titulo":"Ñoquis"
+            },
+            {
+              "titulo":"Ravioles"
+            },
+            {
+              "titulo":"Sorrentinos"
+            },
+            {
+              "titulo":"Canelones"
+            },
+            {
+              "titulo":"Lasagna"
+            },
+            {
+              "titulo":"Estofado"
+            }
+          ]
+        },
+        {
+          "titulo": "Pizzas",
+          "items": [
+            {
+              "titulo":"Muzzarella"
+            },
+            {
+              "titulo":"Muzzarella y jamon"
+            },
+            {
+              "titulo":"Muzzarella y anchoa"
+            },
+            {
+              "titulo":"Especial"
+            },
+            {
+              "titulo":"Roquefort"
+            },
+            {
+              "titulo":"Cuatro quesos"
+            },
+            {
+              "titulo":"Napolitana"
+            }
+          ]
+        },
+        {
+          "titulo": "Super sandwichs para compartir",
+          "items": [
+            {
+              "titulo":"Milanesa"
+            },
+            {
+              "titulo":"Milanesa de pollo"
+            },
+            {
+              "titulo":"Milanesa completa"
+            },
+            {
+              "titulo":"Milanesa de pollo completa"
+            },
+            {
+              "titulo":"Lomo"
+            },
+            {
+              "titulo":"Lomo completo"
+            },
+            {
+              "titulo":"Super tostado"
+            },
+            {
+              "titulo":"Hamburguesas"
+            },
+            {
+              "titulo":"Hamburguesas con jyq"
+            },
+            {
+              "titulo":"Hamburguesas completa"
+            },
+            {
+              "titulo":"Super pancho con papas"
+            },
+            {
+              "titulo":"Super pancho al poncho"
+            },
+            {
+              "titulo":"Vacio"
+            }
+          ]
+        },
+        {
+          "titulo": "Minutas",
+          "items": [
+            {
+              "titulo":"Mayonesa de ave"
+            },
+            {
+              "titulo":"Mayonesa de atún"
+            },
+            {
+              "titulo":"Planchita de pollo"
+            },
+            {
+              "titulo":"Planchita de pollo con jamón y queso"
+            },
+            {
+              "titulo":"Planchita de pollo completa"
+            },
+            {
+              "titulo":"Omelette suizo"
+            },
+            {
+              "titulo":"Omelette mixto"
+            },
+            {
+              "titulo":"Revuelto gramajo"
+            },
+            {
+              "titulo":"Berenjenas"
+            },
+            {
+              "titulo":"Lengua a la vinagreta"
+            }
+          ]
+        },
+        {
+          "titulo": "Empanadas",
+          "items": [
+            {
+              "titulo":"Carne"
+            },
+            {
+              "titulo":"Pollo"
+            },
+            {
+              "titulo":"Jamon y queso"
+            },
+            {
+              "titulo":"Verdura"
+            }
+          ]
+        },
+        {
+          "titulo": "Minutas para compartir",
+          "items": [
+            {
+              "titulo":"Milanesa"
+            },
+            {
+              "titulo":"Milanesa napolitana"
+            },
+            {
+              "titulo":"Milanesa completa",
+              "descripcion": "Papas fritas y huevos fritos"
+            },
+            {
+              "titulo":"Milanesa doña Matilde"
+            },
+            {
+              "titulo":"Suprema"
+            },
+            {
+              "titulo":"Suprema napolitana"
+            },
+            {
+              "titulo":"Suprema completa"
+            },
+            {
+              "titulo":"Suprema de la abuela"
+            },
+            {
+              "titulo":"Suprema doña Matilde"
+            },
+            {
+              "titulo":"Suprema a la suiza"
+            },
+            {
+              "titulo":"Suprema al roquefort"
+            }
+          ]
+        },
+        {
+          "titulo": "Mariscos y pescados para comptarir",
+          "items": [
+            {
+              "titulo":"Mejillón a la provenzal"
+            },
+            {
+              "titulo":"Rabas"
+            },
+            {
+              "titulo":"Rabas con provenzal"
+            },
+            {
+              "titulo":"Cazuela de calamar"
+            },
+            {
+              "titulo":"Cazuela de mariscos"
+            },
+            {
+              "titulo":"Arroz con calamar"
+            },
+            {
+              "titulo":"Arroz con mariscos"
+            },
+            {
+              "titulo":"Paella"
+            },
+            {
+              "titulo":"Filet de merluza"
+            },
+            {
+              "titulo":"Filet de merluza al Roquefort"
+            },
+            {
+              "titulo":"Filet de merluza a los cuatros quesos"
+            },
+            {
+              "titulo":"Filet de merluza napolitana"
+            },
+            {
+              "titulo":"Cornalitos"
+            }
+          ]
+        },
+        {
+          "titulo": "Guarnición",
+          "items": [
+            {
+              "titulo":"Papas fritas"
+            },
+            {
+              "titulo":"Papas fritas a la provenzal"
+            },
+            {
+              "titulo":"Papas Españolas"
+            },
+            {
+              "titulo":"Papas Rejillas"
+            },
+            {
+              "titulo":"Pure"
+            },
+            {
+              "titulo":"Tortilla de papa"
+            },
+            {
+              "titulo":"Tortilla de verdura"
+            }
+          ]
+        },
+        {
+          "titulo": "Postres",
+          "items": [
+            {
+              "titulo":"Flan cacero"
+            },
+            {
+              "titulo":"Ensalada de frutas"
+            },
+            {
+              "titulo":"Queso y dulce"
+            },
+            {
+              "titulo":"Peras a la borgoña"
+            },
+            {
+              "titulo":"Tiramisu"
+            },
+            {
+              "titulo":"Helado"
             }
           ]
         }
@@ -3602,5 +4070,15 @@
     }
     
 
+  ],
+  "tipos": [
+    {
+      "id": 1,
+      "tipo": "Gastronomicos"
+    },
+    {
+      "id": 2,
+      "tipo": "Otros"
+    }
   ]
 }

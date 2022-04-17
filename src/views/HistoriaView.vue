@@ -1,5 +1,5 @@
 <template>
-  <div class="historia" style="overflow:auto">
+  <div class="historia" style="overflow:auto" ref="historiaContent">
     <vs-row>
       <vs-card class="shop-app">
         <template #title>
@@ -38,8 +38,8 @@
           <p class="shop-desc">Únicamente por costos, para poder publicar una APP en la "App Store" de Apple necesito tener una cuenta de desarrollador registrada en Apple, para poder tenerla tengo que pagar 100USD/anual y en la "Play Store" de Google lo mismo, pero por suerte es más barata y piden 25USD<br><br>Si te interesa que esto se vuelva una APP, te cuento, creé una cuenta en "cafecito" y también por si queres donar por mi trabajo 😄
           </p>
           <a href='https://cafecito.app/juanalmadaa' rel='noopener' target='_blank' ><img srcset='https://cdn.cafecito.app/imgs/buttons/button_5.png 1x, https://cdn.cafecito.app/imgs/buttons/button_5_2x.png 2x, https://cdn.cafecito.app/imgs/buttons/button_5_3.75x.png 3.75x' src='https://cdn.cafecito.app/imgs/buttons/button_5.png' alt='Invitame un café en cafecito.app' style="margin-top:10px" /></a>
-          <h3>Quiero estar en la web ¿Dónde me registro?</h3>
-          <p class="shop-desc">Por el momento no hay registro de ningún tipo, tengo pensado muchas actualizaciones más adelante para que la APP se pueda autoabastecer pero por el momento estoy cargando todos a mano.<br>Podes enviarme por <a href="https://www.instagram.com/juanalmadaa/" target="_blank">Instagram</a>, <a href="https://twitter.com/JuanAlmadaa" target="_blank">Twitter</a> o <a href="mailto:juanalmadaa@gmail.com" target="_blank">Mail</a> para poder estar en el listado.<br>Si tenes un listado detallado de los productos que quieras que aparezcan, por favor, enviarlo en forma digital para poder hacerlo más rápido.<br><br>Tener en cuenta que esto lo estoy armando completamente solo y es un trabajo enorme, puede que tarden en aparecer los nuevos, paciencia.</p>
+          <h3 ref="quieroestar" :class="(destacado) ? 'destacado' : ''" style="transition: all 0.5s ease-in-out;">Quiero estar en la web ¿Dónde me registro?</h3>
+          <p class="shop-desc">Por el momento no hay registro de ningún tipo, tengo pensado muchas actualizaciones más adelante para que la APP se pueda autoabastecer pero por el momento estoy cargando todos a mano.<br>Podes enviarme por <a href="https://forms.gle/o4UZR8vs6yCkmQPU8" target="_blank">este formulario</a> para poder estar en el listado.<br>Si tenes un listado detallado de los productos que quieras que aparezcan, por favor, enviarlo en forma digital para poder hacerlo más rápido.<br><br>Tener en cuenta que esto lo estoy armando completamente solo y es un trabajo enorme, puede que tarden en aparecer los nuevos, paciencia.</p>
           <h3>¿De dónde salió el nombre? ¿Tiene algo que ver con "EL NOBA"?</h3>
           <p class="shop-desc">El nombre lo eligió una encuesta de instagram, y no, no tiene nada que ver con EL NOBA(aunque un poco si), solo fue una frase pegadiza que terminó nombrando a esta webapp</p>
         </template>
@@ -53,6 +53,30 @@
 <script>
 export default {
   name: 'HistoriaView',
+  data:() => ({
+        destacado: false
+  }),
+  mounted(){
+    if(location.hash){
+      var element = this.$refs[location.hash.split("#")[1]];
+      var top = element.offsetTop;
+      this.$refs["historiaContent"].scrollTo({
+        top: top,
+        behavior: 'smooth',
+      });
+
+      this.destacado = true;
+      setTimeout(() => {
+        this.destacado = false;
+      }, 1500);
+    }
+  }
 }
 </script>
 
+<style scoped>
+.destacado {
+  font-size: 20px!important;
+  color: rgb(var(--vs-primary))!important;
+}
+</style>

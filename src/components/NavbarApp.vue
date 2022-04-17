@@ -50,12 +50,25 @@
           </vs-sidebar-item>
 
 
-          <vs-sidebar-item id="donate" to="/historia">
+          <vs-sidebar-item id="historia" to="/historia">
             <template #icon>
               <i class='bx bxs-donate-heart' ></i>
             </template>
             Historia
           </vs-sidebar-item>
+
+          <vs-sidebar-item id="historia" to="/historia#quieroestar">
+            <template #icon>
+              <i class='bx bxs-user-plus'></i>
+            </template>
+            ¡Quiero estar!
+          </vs-sidebar-item>
+
+          <template #footer>
+          <vs-row>
+            <a href='https://cafecito.app/juanalmadaa' rel='noopener' target='_blank' ><img srcset='https://cdn.cafecito.app/imgs/buttons/button_5.png 1x, https://cdn.cafecito.app/imgs/buttons/button_5_2x.png 2x, https://cdn.cafecito.app/imgs/buttons/button_5_3.75x.png 3.75x' src='https://cdn.cafecito.app/imgs/buttons/button_5.png' alt='Invitame un café en cafecito.app' style="margin-top:10px" /></a>
+          </vs-row>
+        </template>
 
 
 
@@ -79,6 +92,7 @@ export default {
   methods:{
     changeActive(){
       this.active = (location.pathname == "/") ? "home" : location.pathname.split("/")[1];
+      this.active = (this.active.indexOf("#") !== -1) ? this.active.split("#")[0] : this.active;
       this.activeSidebar = false;
     }
   },
