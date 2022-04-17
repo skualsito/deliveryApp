@@ -2,7 +2,7 @@
  <div class="container">
    <vs-row>
     <vs-col w="12" v-for="(itemTipos, index) in tipos" :key="index">
-        <h3 style="margin-left: 10px">{{itemTipos.tipo}}</h3>
+        <h3 style="margin-left: 10px" v-if="shops.filter((shop)=> shop.tipo == itemTipos.id).length > 0">{{itemTipos.tipo}}</h3>
         <vs-card type="3" class="item-shop" v-for="(item, index) in shops.filter((shop)=> shop.tipo == itemTipos.id)" :key="index" style="margin-bottom: 15px;">
           <template #title>
             <h3 @click="$router.push({path:`/shop/${item.id}`})">{{item.titulo}}</h3>
