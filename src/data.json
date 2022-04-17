@@ -3427,6 +3427,136 @@
       "delivery": false,
       "menu": [
       ]
+    },{
+      "id":19,
+      "titulo":"Celulares La Costa",
+      "descripcion": "De 9 a 22hs de corrido",
+      "descripcionLarga": "De 9 a 22hs de corrido",
+      "instagram": "celulareslacosta",
+      "facebook": "https://www.facebook.com/CostaAtlanticaCelulares",
+      "whatsapp": "2257507000",
+      "logo": "logo-celulareslacosta.jpg",
+      "back": "back-celulareslacosta.jpg",
+      "localidad": 9,
+      "takeaway": false,
+      "onsite": true,
+      "delivery": false,
+      "direccion": "Av. libertador 1100",
+      "direccionLink": "https://www.google.com/maps/place/CELULARES+LA+COSTA/@-36.721473,-56.6864003,19z/data=!3m1!4b1!4m5!3m4!1s0x959c6f31245b281f:0xd31112c7490035c!8m2!3d-36.7214371!4d-56.6858538",
+      "menu": [
+      ]
+    },{
+      "id":20,
+      "titulo":"Celulares La Costa",
+      "descripcion": "De 10 a 13 y de 17 a 22",
+      "descripcionLarga": "De 10 a 13 y de 17 a 22",
+      "instagram": "celulareslacosta",
+      "facebook": "https://www.facebook.com/CostaAtlanticaCelulares",
+      "logo": "logo-celulareslacosta.jpg",
+      "back": "back-celulareslacosta.jpg",
+      "whatsapp": "2257549610",
+      "localidad": 8,
+      "takeaway": false,
+      "onsite": true,
+      "delivery": false,
+      "direccion": "Chiozza 2757",
+      "direccionLink": "https://www.google.com/maps/place/CELULARES+LA+COSTA/@-36.6866869,-56.678106,19.25z/data=!4m5!3m4!1s0x959c6ee66435e7e7:0xed46ef531ccb8336!8m2!3d-36.6869774!4d-56.6779721",
+      "menu": [
+      ]
+    },{
+      "id":21,
+      "titulo":"Dulce Morenita",
+      "descripcion": "Repostería artesanal, pedidos con anticipación",
+      "descripcionLarga": "Dulce More realizamos desde hace ya 9 años mesas dulces Para todo tipo de eventos, nos pueden contactar vía Instagram o a nuestro Whatsapp en donde encontrarán lista de productos y sus valores.",
+      "instagram": "antonelacuttaaiuto",
+      "logo": "logo-dulcemorenita.jpg",
+      "back": "back-dulcemorenita.jpg",
+      "whatsapp": "2257551533",
+      "localidad": 9,
+      "takeaway": false,
+      "onsite": false,
+      "delivery": true,
+      "menu": [
+        {
+          "titulo": "Listado de productos",
+          "items": [
+            {
+              "titulo":"Tortas principales para eventos",
+              "descripcion": "(cumple, bautismo, casamiento, etc)"
+            },
+            {
+              "titulo":"Chocotorta"
+            },
+            {
+              "titulo":"Cheesecake"
+            },
+            {
+              "titulo":"Rogel"
+            },
+            {
+              "titulo":"Macarons"
+            },
+            {
+              "titulo":"Tartas dulces"
+            },
+            {
+              "titulo":"Y más"
+            }
+          ]
+        }
+      ]
+    },{
+      "id":22,
+      "titulo":"Mundo Birrita",
+      "descripcion": "Despacho Cervecero",
+      "descripcionLarga": "Merchandasing / Bibliografía / Cultura cervecera / Charlas de productores / Maridajes / Presentación de cervezas.",
+      "instagram": "mundobirrita",
+      "logo": "logo-mundobirrita.jpg",
+      "back": "back-mundobirrita.jpg",
+      "whatsapp": "2257528576",
+      "localidad": 9,
+      "takeaway": true,
+      "onsite": true,
+      "delivery": true,
+      "direccion": "La Rioja 10",
+      "direccionLink": "https://www.google.com/maps/place/Mundo+Birrita/@-36.7209612,-56.6806253,17z/data=!3m1!4b1!4m5!3m4!1s0x959c6f02d335ccd9:0x7fe278b631106294!8m2!3d-36.7209655!4d-56.6784366",
+      "menu": [
+        {
+          "titulo": "Ofrecemos",
+          "items": [
+            {
+              "titulo":"Cervezaa artesanales e importadas"
+            },
+            {
+              "titulo":"Rotación de cervezas en canilla"
+            },
+            {
+              "titulo":"Gin de autor"
+            },
+            {
+              "titulo":"Sidras artesanales"
+            },
+            {
+              "titulo":"Vermouth"
+            },
+            {
+              "titulo":"Vinos boutique"
+            },
+            {
+              "titulo":"Pizzas estilo Napoles"
+            },
+            {
+              "titulo":"Salchichas alemanas"
+            },
+            {
+              "titulo":"Picadas"
+            },
+            {
+              "titulo":"Tostados"
+            }
+          ]
+        }
+      ]
     }
   ],
   "localidades": [
