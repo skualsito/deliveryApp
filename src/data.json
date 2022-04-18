@@ -433,37 +433,48 @@
           "titulo": "Pizza",
           "items":[
             {
-              "titulo": "Muzarella"
+              "titulo": "Muzarella",
+              "descripcion": "Salsa de tomate, queso, muzarella y orégano"
             },
             {
-              "titulo": "Napolitana"
+              "titulo": "Napolitana",
+              "descripcion": "Salsa de tomate, queso muzarella, rodajas de tomate y provenzal"
             },
             {
-              "titulo": "Rucula"
+              "titulo": "Rucula",
+              "descripcion": "Salsa de tomate, muzarella, rúcula, jamón crudo y hebras de parmesano"
             },
             {
-              "titulo": "Roquefort"
+              "titulo": "Roquefort",
+              "descripcion": "Salsa de tomate, queso muzarella y roquefort"
             },
             {
-              "titulo": "Calabresa"
+              "titulo": "Calabresa",
+              "descripcion": "Salsa de tomate, queso muzarella y longaniza"
             },
             {
-              "titulo": "Especial"
+              "titulo": "Especial",
+              "descripcion": "Salsa de tomate, queso muzarella, jamón y morrón"
             },
             {
-              "titulo": "Fugazza"
+              "titulo": "Fugazza",
+              "descripcion": "Queso muzarella y cebolla"
             },
             {
-              "titulo": "Americana"
+              "titulo": "Americana",
+              "descripcion": "Salsa de tomate, cebolla, huevo frito y panceta"
             },
             {
-              "titulo": "BBQ"
+              "titulo": "BBQ",
+              "descripcion": "Salsa de tomate, muzarella, pollo, cebolla, morrón y salsa barbacoa"
             },
             {
-              "titulo": "Chillbeer"
+              "titulo": "Chillbeer",
+              "descripcion": "Salsa de tomate, verduras asadas, queso muzarella y espinaca"
             },
             {
-              "titulo": "Fugazzeta rellena (por porción)"
+              "titulo": "Fugazzeta rellena (por porción)",
+              "descripcion": "Rellena de muzarella con cubierta de cebolla, orégano y oliva"
             }
           ]
         },
@@ -478,25 +489,32 @@
               "titulo": "Jamón y queso"
             },
             {
-              "titulo": "Completa"
+              "titulo": "Completa",
+              "descripcion": "Lechuga, tomate, jamón, queso y huevo"
             },
             {
-              "titulo": "Argenta"
+              "titulo": "Argenta",
+              "descripcion": "Queso provoleta, morrones asados, lechuga, con nuestro chimichurri y alioli casero"
             },
             {
-              "titulo": "Paris"
+              "titulo": "Paris",
+              "descripcion": "Queso roquefort, hongos, cebolla caramelizada, tomates asados y rúcula"
             },
             {
-              "titulo": "Mexicana"
+              "titulo": "Mexicana",
+              "descripcion": "Guacamole, salsa picante, cebolla morada, ajies en vinagre y queso cheddar"
             },
             {
-              "titulo": "Americana"
+              "titulo": "Americana",
+              "descripcion": "Doble queso cheddar, panceta, huevo frito, pepinillos y salsa BBQ"
             },
             {
-              "titulo": "Tana"
+              "titulo": "Tana",
+              "descripcion": "Muzarella, albahaca, tomate, jamón crudo, rúcula y mayonesa de aceitunas"
             },
             {
-              "titulo": "Vegetariana"
+              "titulo": "Vegetariana",
+              "descripcion": "Medallón de legumbres, queso muzarella, hongos, brotes y tomate confitado"
             }
           ]
         },
@@ -545,7 +563,8 @@
           "titulo": "Sandwich",
           "items":[
             {
-              "titulo": "Sandwich de Bondiola desmenuzada"
+              "titulo": "Sandwich de Bondiola desmenuzada",
+              "descripcion": "Con mostaza de miel, panceta, huevo, espinaca y queso mozarella. Acompañado de batatas fritas"
             }
           ]
         },
@@ -553,7 +572,8 @@
           "titulo": "Picada",
           "items":[
             {
-              "titulo": "Para 2 personas"
+              "titulo": "Para 2 personas",
+              "descripcion": "Jamón cocido, salamín, 2 variedades de quesos, mortadela, roquefort, jamón crudo, berenjenas en escabeche, aceitunas y pan casero hecho en Chillbeer"
             }
           ]
         },
@@ -561,19 +581,24 @@
           "titulo": "Principales",
           "items":[
             {
-              "titulo": "Ribs de cerdo"
+              "titulo": "Ribs de cerdo",
+              "descripcion": "Ribs de cerdo cocinado 4 horas en salsa barbacoa, acompañado de papas noisette y hojas verdes"
             },
             {
-              "titulo": "Bondiola Stout"
+              "titulo": "Bondiola Stout",
+              "descripcion": "Bondiola braseada por 5 horas en salsa de cerveza Stout, acompañado de batatas en confitura"
             },
             {
-              "titulo": "Tacos"
+              "titulo": "Tacos",
+              "descripcion": "Variedad de pimientos, cebolla, ajo, tomate, jalapeño y carne de cerdo o pollo a elección"
             },
             {
-              "titulo": "Chop suey (apto para celiacos)"
+              "titulo": "Chop suey (apto para celiacos)",
+              "descripcion": "Verduras salteadas al wok, con cubos salteados de pollo"
             },
             {
-              "titulo": "Menú infantil"
+              "titulo": "Menú infantil",
+              "descripcion": "Patitas de pollo con papas fritas"
             }
           ]
         },
@@ -581,13 +606,16 @@
           "titulo": "Ensaladas",
           "items":[
             {
-              "titulo": "Caesar"
+              "titulo": "Caesar",
+              "descripcion": "Tres variedades de hojas, pollo, croutons, parmesano y salsa Caesar"
             },
             {
-              "titulo": "Cuatro ingredientes (armala a tu gusto)"
+              "titulo": "Cuatro ingredientes (armala a tu gusto)",
+              "descripcion": "Cebolla, cebolla morada, hojas verdes, tomate, tomate cherry, dados de queso, champignon, etc"
             },
             {
-              "titulo": "Chillbeer"
+              "titulo": "Chillbeer",
+              "descripcion": "Tomate, palta, dados de queso, rúcula y cebolla morada"
             },
             {
               "titulo": "Rúcula y parmesano"
@@ -3547,7 +3575,7 @@
           "titulo": "Ofrecemos",
           "items": [
             {
-              "titulo":"Cervezaa artesanales e importadas"
+              "titulo":"Cervezas artesanales e importadas"
             },
             {
               "titulo":"Rotación de cervezas en canilla"
@@ -3971,6 +3999,61 @@
             }
           ]
         }
+      ]
+    },{
+      "id":24,
+      "titulo":"Dulce Lulú tartas y más",
+      "descripcion": "Hago tartas, biscochuelos, pasta flola y más",
+      "descripcionLarga": "Me dedico hacer tartas y más todo fresco en el día también hago mesas dulces.",
+      "instagram": "larce3776",
+      "logo": "logo-dulcelulu.jpg",
+      "back": "back-dulcelulu.jpg",
+      "whatsapp": "2257403364",
+      "localidad": 9,
+      "takeaway": false,
+      "onsite": true,
+      "delivery": true,
+      "tipo": 1,
+      "direccion": "José Marano 1539",
+      "direccionLink": "https://www.google.com/maps/place/Doutor+Jos%C3%A9+Marano+1539,+Mar+de+Aj%C3%B3,+Provincia+de+Buenos+Aires/@-36.7227086,-56.6914501,18z/data=!4m13!1m7!3m6!1s0x959c6f7bd5af1da7:0x93a8991de4698550!2sDoutor+Jos%C3%A9+Marano+1539,+Mar+de+Aj%C3%B3,+Provincia+de+Buenos+Aires!3b1!8m2!3d-36.7227086!4d-56.6905299!3m4!1s0x959c6f7bd5af1da7:0x93a8991de4698550!8m2!3d-36.7227086!4d-56.6905299",
+      "menu": [
+        {
+          "titulo": "Tartas",
+          "items": [
+            {
+              "titulo":"Frutilla"
+            },
+            {
+              "titulo":"Durazno"
+            },
+            {
+              "titulo":"Coco"
+            },
+            {
+              "titulo":"Toffi"
+            },
+            {
+              "titulo":"Banana split"
+            }
+          ]
+        }
+      ]
+    },{
+      "id":25,
+      "titulo":"Animaciones NMA",
+      "descripcion": "Animaciones infantiles, desayunos dulces y salados para niños y adultos ",
+      "descripcionLarga": "Entrega de desayunos con princesas, personajes, o solos. Para niños y adultos. Animaciones infantiles ",
+      "instagram": "animacionesnma",
+      "facebook": "https://www.facebook.com/natalia.ropal",
+      "logo": "logo-animacionesnma.jpg",
+      "back": "back-animacionesnma.jpg",
+      "whatsapp": "2257635852",
+      "localidad": 8,
+      "takeaway": false,
+      "onsite": true,
+      "delivery": true,
+      "tipo": 1,
+      "menu": [
       ]
     }
   ],
