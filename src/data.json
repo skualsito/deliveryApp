@@ -4041,7 +4041,7 @@
     },{
       "id":25,
       "titulo":"Animaciones NMA",
-      "descripcion": "Animaciones infantiles, desayunos dulces y salados para niños y adultos ",
+      "descripcion": "Animaciones infantiles, desayunos dulces y salados para niños y adultos",
       "descripcionLarga": "Entrega de desayunos con princesas, personajes, o solos. Para niños y adultos. Animaciones infantiles ",
       "instagram": "animacionesnma",
       "facebook": "https://www.facebook.com/natalia.ropal",
@@ -4051,6 +4051,21 @@
       "localidad": 8,
       "takeaway": false,
       "onsite": true,
+      "delivery": true,
+      "tipo": 1,
+      "menu": [
+      ]
+    },{
+      "id":26,
+      "titulo":"Luma Dulzuras",
+      "descripcion": "𝑫𝒖𝒍𝒛𝒖𝒓𝒂𝒔 𝒄𝒂𝒔𝒆𝒓𝒂𝒔",
+      "descripcionLarga": "𝑫𝒖𝒍𝒛𝒖𝒓𝒂𝒔 𝒄𝒂𝒔𝒆𝒓𝒂𝒔",
+      "instagram": "luma_dulzuras",
+      "logo": "logo-lumadulzuras.jpg",
+      "back": "back-lumadulzuras.jpg",
+      "localidad": 9,
+      "takeaway": false,
+      "onsite": false,
       "delivery": true,
       "tipo": 1,
       "menu": [
