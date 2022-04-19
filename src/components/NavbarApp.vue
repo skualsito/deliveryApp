@@ -114,7 +114,7 @@
         </template>
 
 
-        <div class="con-form login-form">
+        <div class="con-form login-form" v-if="!register">
           <vs-input v-model="email" placeholder="Email">
             <template #icon>
               @
@@ -126,19 +126,56 @@
             </template>
           </vs-input>
           <div class="flex">
-            <vs-checkbox v-model="remember">Recordarme</vs-checkbox>
+            <!-- <vs-checkbox v-model="remember">Recordarme</vs-checkbox> -->
             <a href="#">¿Olvidaste tu contraseña?</a>
           </div>
         </div>
 
-        <template #footer>
-          <div class="footer-dialog">
-            <vs-button block>
-              Login
-            </vs-button>
+        <div class="con-form login-form" v-if="register">
+          <vs-input v-model="emailReg" placeholder="Email">
+            <template v-if="validEmail" #message-success>
+              Email correcto
+            </template>
+            <template v-if="!validEmail && emailReg !== ''" #message-danger>
+              Email incorrecto
+            </template>
+            <template #icon>
+              @
+            </template>
+          </vs-input>
+          <vs-input type="password" v-model="passwordReg1" placeholder="Contraseña">
+            <template #icon>
+              <i class='bx bxs-lock'></i>
+            </template>
+          </vs-input>
+          <vs-input type="password" v-model="passwordReg2" placeholder="Repetir contraseña">
+            <template #icon>
+              <i class='bx bxs-lock'></i>
+            </template>
+          </vs-input>
+        </div>
 
-            <div class="new">
-              ¿Nuevo? <a href="#">Crea una cuenta</a>
+        <template #footer>
+          <div v-if="!register">
+            <div class="footer-dialog">
+              <vs-button block>
+                Login
+              </vs-button>
+
+              <div class="new">
+                ¿Nuevo? <a href="#" @click="register = true">Crea una cuenta</a>
+              </div>
+            </div>
+          </div>
+          <div v-if="register">
+            <div class="footer-dialog">
+              <vs-button block>
+                Crear cuenta
+              </vs-button>
+
+              <div class="new">
+                ¿Ya tenés cuenta? <a href="#" @click="register = false">Loguear</a>
+              </div>
             </div>
           </div>
         </template>
@@ -154,10 +191,15 @@ export default {
         value1: '',
         active: '',
         activeSidebar: false,
-        loged: true,
+        loged: false,
         dialogLogin: false,
         email: '',
-        password: ''
+        password: '',
+        register: false,
+        emailReg: '',
+        passwordReg1: '',
+        passwordReg2: '',
+        hasVisiblePassword: false
   }),
   mounted(){
     this.changeActive();
@@ -173,7 +215,32 @@ export default {
     $route (){
       this.changeActive();
     }
-} 
+  }, 
+  computed: {
+    validEmail() {
+      return /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/.test(this.emailReg)
+    },
+    getProgress() {
+      let progress = 0
+      if (/\d/.test(this.passwordReg1)) {
+        progress += 20
+      }
+      if (/(.*[A-Z].*)/.test(this.passwordReg1)) {
+        progress += 20
+      }
+      if (/(.*[a-z].*)/.test(this.passwordReg1)) {
+        progress += 20
+      }
+      if (this.passwordReg1.length >= 6) {
+        progress += 20
+      }
+      if (/[^A-Za-z0-9]/.test(this.passwordReg1)) {
+        progress += 20
+      }
+
+      return progress
+    }
+  }
 }
 </script>
 
