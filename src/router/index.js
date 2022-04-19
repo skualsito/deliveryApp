@@ -7,6 +7,9 @@ import TakeAwayView from '../views/TakeAwayView.vue'
 import ShopView from '../views/ShopView.vue'
 import SearchResult from '../views/SearchResult.vue'
 import HistoriaView from '../views/HistoriaView.vue'
+import PerfilView from '../views/PerfilView.vue'
+import EmprendimientosView from '../views/EmprendimientosView.vue'
+import EmprendimientoAddView from '../views/EmprendimientoAddView.vue'
 
 Vue.use(VueRouter)
 
@@ -45,6 +48,21 @@ const routes = [
     path: '/historia',
     name: 'historia',
     component: HistoriaView
+  },
+  {
+    path: '/perfil',
+    name: 'perfil',
+    component: PerfilView
+  },
+  {
+    path: '/emprendimientos',
+    name: 'emprendimientos',
+    component: EmprendimientosView
+  },
+  {
+    path: '/emprendimientosAdd',
+    name: 'emprendimientosAdd',
+    component: EmprendimientoAddView
   }
 ]
 

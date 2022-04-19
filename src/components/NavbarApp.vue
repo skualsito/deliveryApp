@@ -64,16 +64,85 @@
             ¡Quiero estar!
           </vs-sidebar-item>
 
+           <vs-sidebar-group v-if="loged">
+            <template #header>
+              <vs-sidebar-item arrow>
+                <template #icon>
+                  <i class='bx bxs-dashboard'></i>
+                </template>
+                Administrador
+              </vs-sidebar-item>
+            </template>
+
+            <vs-sidebar-item id="perfil" to="/perfil">
+              <template #icon>
+                <i class='bx bxs-user-pin' ></i>
+              </template>
+              Perfil
+            </vs-sidebar-item>
+            <vs-sidebar-item id="emprendimientos" to="/emprendimientos">
+              <template #icon>
+                <i class='bx bxs-store-alt'></i>
+              </template>
+              Emprendimientos
+            </vs-sidebar-item>
+          </vs-sidebar-group>
+
           <template #footer>
-          <vs-row>
-            <a href='https://cafecito.app/juanalmadaa' rel='noopener' target='_blank' ><img srcset='https://cdn.cafecito.app/imgs/buttons/button_5.png 1x, https://cdn.cafecito.app/imgs/buttons/button_5_2x.png 2x, https://cdn.cafecito.app/imgs/buttons/button_5_3.75x.png 3.75x' src='https://cdn.cafecito.app/imgs/buttons/button_5.png' alt='Invitame un café en cafecito.app' style="margin-top:10px" /></a>
-          </vs-row>
+            <div @click="(loged) ? $router.push({path:`/perfil`}).catch(()=>{}) : dialogLogin = true" style="cursor:pointer">
+              <vs-row>
+                <vs-avatar badge badge-color="success" v-if="loged">
+                  <img :src="require(`@/assets/imgs/historia/avatar.jpg`)" alt="Avatar">
+                </vs-avatar>
+                <vs-avatar primary v-if="!loged">
+                    <i class='bx bx-user'></i>
+                </vs-avatar>
+                <h5 class="user-login-app">{{(loged) ? "Juan Almada" : "Loguear"}}</h5>
+              </vs-row>
+            </div>
         </template>
 
 
 
       </vs-sidebar>
     </div>
+    <vs-dialog v-model="dialogLogin">
+        <template #header>
+          <h4 class="not-margin">
+            ¡Bienvenido!
+          </h4>
+        </template>
+
+
+        <div class="con-form login-form">
+          <vs-input v-model="email" placeholder="Email">
+            <template #icon>
+              @
+            </template>
+          </vs-input>
+          <vs-input type="password" v-model="password" placeholder="Contraseña">
+            <template #icon>
+              <i class='bx bxs-lock'></i>
+            </template>
+          </vs-input>
+          <div class="flex">
+            <vs-checkbox v-model="remember">Recordarme</vs-checkbox>
+            <a href="#">¿Olvidaste tu contraseña?</a>
+          </div>
+        </div>
+
+        <template #footer>
+          <div class="footer-dialog">
+            <vs-button block>
+              Login
+            </vs-button>
+
+            <div class="new">
+              ¿Nuevo? <a href="#">Crea una cuenta</a>
+            </div>
+          </div>
+        </template>
+    </vs-dialog>
   </div>
 </template>
 
@@ -84,7 +153,11 @@ export default {
   data:() => ({
         value1: '',
         active: '',
-        activeSidebar: false
+        activeSidebar: false,
+        loged: true,
+        dialogLogin: false,
+        email: '',
+        password: ''
   }),
   mounted(){
     this.changeActive();
@@ -107,4 +180,42 @@ export default {
 <style>
 .input-search-app {width: calc(100% - 100px);}
 .input-search-app input, .input-search-app .vs-input-content {width: 100%;}
+.user-login-app {
+  margin: 12px 10px;
+}
+.footer-dialog{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.footer-dialog .new {
+  margin: 0px;
+  margin-top: 20px;
+  padding: 0px;
+  font-size: .7rem;
+}
+.footer-dialog a {
+  color: rgb(var(--vs-primary)) !important;
+  margin-left: 6px;
+}
+.footer-dialog .new a:hover {
+  text-decoration: none;
+}
+.login-form .flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.login-form .flex a{
+  text-decoration: none;
+  color: rgb(var(--vs-primary)) !important;
+  font-size: .8rem;
+  opacity: .7;
+}
+.login-form .flex a:hover{
+  opacity: 1;
+}
+
 </style>
