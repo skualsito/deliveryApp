@@ -4,24 +4,84 @@
       <vs-card class="shop-app emprendimiento-card">
         <template #title>
           <vs-avatar primary circle>
-            <img :src="require(`@/assets/imgs/historia/avatar.jpg`)" alt="Avatar" v-if="avatar">
+            <input type="file" id="myfile" name="myfile">
+            <div class="subir-archivo"><i class='bx bx-upload'></i></div>
+            <img :src="(shop.logo) ? shop.logo : require(`@/assets/imgs/historia/avatar.jpg`)" alt="Avatar" v-if="shop.logo">
             <i class='bx bx-user' v-if="!avatar"></i>
           </vs-avatar>
-          <h3 style="text-align:center" v-show="!showField('name', user.name)" @click="focusField('name')">{{user.name}}</h3>
-          <vs-input v-model="user.name" placeholder="Nombre" v-show="showField('name', user.name)" type="text" class="field-value form-control" @focus="focusField('name')" @blur="blurField"/>
+          <h3 style="text-align:center" v-show="!showField('nombre', shop.titulo)" @click="focusField('nombre')">{{shop.titulo}}</h3>
+          <vs-input v-model="shop.titulo" placeholder="Nombre" v-show="showField('nombre', shop.titulo)" type="text" class="field-value form-control" @focus="focusField('nombre')" @blur="blurField"/>
         </template>
         <template #img>
-          <img :src="require(`@/assets/defaults/Abstract-Gradient-${defaultBack}.png`)" alt="Back">
+          <input type="file" id="myfile" name="myfile">
+          <div class="subir-archivo"><i class='bx bx-upload'></i></div>
+          <img :src="(shop.back) ? shop.back : require(`@/assets/defaults/Abstract-Gradient-${defaultBack}.png`)" alt="Back">
         </template>
 
         <template #text>
-          <p></p>
+          <vs-select
+            placeholder="Seleccione un tipo"
+            v-model="shop.tipo"
+            class="select-localidad-appadd"
+          >
+            <vs-option :label="item.tipo" :value="item.id" v-for="(item) in tiposData" :key="item.id" >
+              {{item.tipo}}
+            </vs-option>
+          </vs-select>
+          <vs-input placeholder="Descripción corta" v-model="shop.descripcion">
+          </vs-input>
+          <vs-input placeholder="Descripción larga" v-model="shop.descripcionLarga">
+          </vs-input>
+          <vs-select
+            placeholder="Seleccione una localidad"
+            v-model="shop.localidad"
+            class="select-localidad-appadd"
+          >
+            <vs-option :label="item.localidad" :value="item.id" v-for="(item) in localidadesData" :key="item.id" >
+              {{item.localidad}}
+            </vs-option>
+          </vs-select>
+          <vs-input placeholder="Dirección" v-model="shop.direccion">
+            <template #icon>
+              <i class='bx bxs-map'></i>
+            </template>
+          </vs-input>
+          <vs-input placeholder="Instagram" v-model="shop.instagram">
+            <template #icon>
+              <i class='bx bxl-instagram'></i>
+            </template>
+          </vs-input>
+          <vs-input placeholder="Whatsapp" v-model="shop.whatsapp">
+            <template #icon>
+              <i class='bx bxl-whatsapp'></i>
+            </template>
+          </vs-input>
+          <vs-input placeholder="Facebook" v-model="shop.facebook">
+            <template #icon>
+              <i class='bx bxl-facebook' ></i>
+            </template>
+          </vs-input>
+          <vs-input placeholder="Twitter" v-model="shop.twitter">
+            <template #icon>
+              <i class='bx bxl-twitter'></i>
+            </template>
+          </vs-input>
+          <vs-input placeholder="Teléfono" v-model="shop.telefono">
+            <template #icon>
+              <i class='bx bxs-phone'></i>
+            </template>
+          </vs-input>
+          <vs-input placeholder="Página web" v-model="shop.url">
+            <template #icon>
+              <i class='bx bx-link'></i>
+            </template>
+          </vs-input>
         </template>
       </vs-card>
     </vs-row>
     
     <vs-row>
-      <vs-card type="3" class="item-shop menu-container" v-for="(item, index) in shop" :key="index" style="margin-bottom: 15px;">
+      <vs-card type="3" class="item-shop menu-container" v-for="(item, index) in shop.menu" :key="index" style="margin-bottom: 15px;">
           <template #title>
             <h3 v-show="!showField(`titulo${index}`, item.titulo)" @click="focusField(`titulo${index}`)">{{item.titulo}}</h3>
             <vs-input v-model="item.titulo" placeholder="Titulo" v-show="showField(`titulo${index}`, item.titulo)" type="text" class="field-value form-control" @focus="focusField(`titulo${index}`)" @blur="blurField"/>
@@ -62,21 +122,38 @@
   </div>
 </template>
 <script>
-
+import data from '../data.json'
 
 export default {
   name: 'EmprendimientoAddView',
   data:() => ({
     avatar: '',
-    user : {
-        name: '',
-        email: ''
-    },
     editField : '',
     defaultBack: Math.floor(Math.random() * 9) + 1,
-    shop: [
-
-    ]
+    localidadesData: data.localidades,
+    tiposData: data.tipos,
+    shop: 
+      {
+        "titulo":"",
+        "descripcion": "",
+        "descripcionLarga": "",
+        "instagram": "",
+        "facebook": "",
+        "twitter": "",
+        "whastapp": "",
+        "url": "",
+        "telefono": "",
+        "logo": "",
+        "back": "",
+        "localidad": 0,
+        "takeaway": false,
+        "onsite": false,
+        "delivery": false,
+        "tipo": 0,
+        "direccion": "",
+        "menu": []
+      }
+    
   }),
   components: {
 
@@ -95,7 +172,7 @@ export default {
       return (item == '' || this.editField == name)
     },
     agregarSeccion(){
-      this.shop.push({titulo:'', descripcion:'', items: []}); 
+      this.shop.menu.push({titulo:'', descripcion:'', items: []}); 
     },
     guardarTodo(){
       console.log(this.shop);
@@ -108,15 +185,14 @@ export default {
 </script>
 
 <style>
-.con-form, .emprendimiento-card, .con-form input {
+.select-localidad-appadd {max-width: 100%!important; width: 100%!important;}
+.select-localidad-appadd input, .select-localidad-app .vs-input-content {width: 100%;}
+.con-form, .emprendimiento-card, .con-form input, .con-form select {
   width:100%;
-}
-.con-form input {
-  margin-bottom: 10px;
 }
 .emprendimientoadd {
   overflow: auto;
-  overflow-x: none;
+  overflow-x: hidden;
 }
 
 </style>
