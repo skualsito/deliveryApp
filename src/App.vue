@@ -5,6 +5,9 @@
     <div class="content-app">
       <router-view :dataShops="shopsOrdenados"/>
     </div>
+    <footer>
+        <a href='https://cafecito.app/juanalmadaa' rel='noopener' target='_blank' ><img srcset='https://cdn.cafecito.app/imgs/buttons/button_2.png 1x, https://cdn.cafecito.app/imgs/buttons/button_2_2x.png 2x, https://cdn.cafecito.app/imgs/buttons/button_2_3.75x.png 3.75x' src='https://cdn.cafecito.app/imgs/buttons/button_2.png' alt='Invitame un café en cafecito.app' style="margin-top:5px;" /></a>
+    </footer>
   </div>
 </template>
 
@@ -54,9 +57,9 @@ export default {
   }
   .content-app {
     padding: 5px 0;
-    height: calc(100% - 55px);
+    height: calc(100% - 105px);
   }
-  .delivery, .dondecomer, .search, .takeaway, .historia {
+  .delivery, .dondecomer, .search, .takeaway, .historia, .emprendimientoadd {
     height: calc(100% - 10px);
   }
   .card-titulo .vs-card {
